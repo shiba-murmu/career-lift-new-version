@@ -7,6 +7,8 @@ function SectionTwo(){
     <>
       <div>
         <span className="text-5xl">I am the section two interface...</span>
+        {/* Section two of the homepage. */}
+        
       </div>
     </>
   );
