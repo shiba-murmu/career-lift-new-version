@@ -5,3 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+
+}
+::-webkit-scrollbar-track {
+    background: #e90000;
+} */
