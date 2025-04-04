@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <Transition />
-      <main className="flex-grow container mx-auto px-6 md:px-12 py-12 text-center">
+      {/* <main className="flex-grow container mx-auto px-6 md:px-12 py-12 text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
           Welcome to Our Website
         </h2>
@@ -15,7 +15,7 @@ function Home() {
         <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300">
           Get Started
         </button>
-      </main>
+      </main> */}
     </>
   );
 }
