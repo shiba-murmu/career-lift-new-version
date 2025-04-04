@@ -31,7 +31,7 @@ export default function Transition() {
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
-          depth: 1000,
+          depth: 1500,
           modifier: 1,
           slideShadows: true,
         }}
