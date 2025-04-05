@@ -1,68 +1,133 @@
-import React from 'react'
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-function Footer() {
-  return (
-    <>
-      
-      <div className="footer bg-gray-800 text-white py-8">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/2 mb-6 md:mb-0">
-              <div className="footer-left">
-                <div className="footer-logo mb-4">
-                  <a href="index.html">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Logo" className="h-12" />
-                  </a>
-                </div>
-                <ul className="space-y-2">
-                  <li>Address: 60-49 Road 11378 New York</li>
-                  <li>Phone: +65 11.188.888</li>
-                  <li>Email: 2B0J0@example.com</li>
-                </ul>
-                <div className="footer-social mt-4">  
-                  <a href="#" className="text-blue-500 mx-2">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#" className="text-pink-500 mx-2">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                  <a href="#" className="text-blue-400 mx-2">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                  <a href="#" className="text-red-600 mx-2">
-                    <i className="fa fa-pinterest"></i>
-                  </a>
-                </div>  
-              </div>
-            </div>  
-            <div className="w-full md:w-1/2">
-              <div className="footer-widget">
-                <h2 className="text-xl font-bold mb-2">Newsletter</h2>
-                <p className="mb-4">Stay updated with our latest trends</p>
-                <form action="#" className="flex">
-                  <input type="text" placeholder="Email" className="flex-grow p-2 rounded-l-md border border-gray-300 focus:outline-none" />
-                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-md">Subscribe</button>
-                </form>
-              </div>
-            </div>
-          </div>  
-        </div>
-        <div className="copyright-reserved mt-8">
-          <div className="container mx-auto px-4">
-            <div className="text-center">
-              <div className="copyright-text">
-                <p>   
-                  &copy; {new Date().getFullYear()} All rights reserved | This template is made with
-                  <i className="fa fa-heart-o" aria-hidden="true"></i> by
-                  <a href="https://colorlib.com" target="_blank" className="text-blue-500">Colorlib</a>
-                </p>
-              </div>  
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  )
-}
+// components/Footer.js
+import React from "react";
+import {
+  Box,
+  Grid,
+  Typography,
+  Link,
+  IconButton,
+  Divider,
+  useTheme,
+} from "@mui/material";
+import { GitHub, LinkedIn, Twitter, Email } from "@mui/icons-material";
 
-export default Footer
+const Footer = () => {
+  const theme = useTheme();
+  const isDark = theme.palette.mode === "dark";
+
+  return (
+    <Box
+      component="footer"
+      sx={{
+        backgroundColor: isDark ? "#0A0A0A" : "#F5F5F5",
+        color: isDark ? "#FFFFFF" : "#333333",
+        px: { xs: 3, sm: 10 },
+        pt: 8,
+        pb: 4,
+        mt: 10,
+        fontFamily: "Raleway, sans-serif", // default for body
+      }}
+    >
+      {/* Top Grid Section */}
+      <Grid container spacing={5}>
+        {/* Brand Info */}
+        <Grid item xs={12} sm={4}>
+          <Typography
+            variant="h5"
+            fontWeight="bold"
+            gutterBottom
+            sx={{ fontFamily: "Open Sans, sans-serif" }}
+          >
+            Career Lift 🚀
+          </Typography>
+          <Typography variant="body2" sx={{ color: "gray" }}>
+            Helping students find the right path based on passion, skill, and
+            location.
+          </Typography>
+        </Grid>
+
+        {/* Navigation Links */}
+        <Grid item xs={12} sm={4}>
+          <Typography
+            variant="h6"
+            fontWeight="bold"
+            gutterBottom
+            sx={{ fontFamily: "Open Sans, sans-serif" }}
+          >
+            Explore
+          </Typography>
+          <Box display="flex" flexDirection="column" gap={1}>
+            <Link href="/" underline="hover" color="inherit">
+              Home
+            </Link>
+            <Link href="/about" underline="hover" color="inherit">
+              About Us
+            </Link>
+            <Link href="/careers" underline="hover" color="inherit">
+              Career Paths
+            </Link>
+            <Link href="/contact" underline="hover" color="inherit">
+              Contact
+            </Link>
+          </Box>
+        </Grid>
+
+        {/* Contact & Social */}
+        <Grid item xs={12} sm={4}>
+          <Typography
+            variant="h6"
+            fontWeight="bold"
+            gutterBottom
+            sx={{ fontFamily: "Open Sans, sans-serif" }}
+          >
+            Connect With Us
+          </Typography>
+          <Box display="flex" gap={1} mb={1}>
+            <IconButton
+              href="https://github.com"
+              target="_blank"
+              sx={{ color: "inherit" }}
+            >
+              <GitHub />
+            </IconButton>
+            <IconButton
+              href="https://linkedin.com"
+              target="_blank"
+              sx={{ color: "inherit" }}
+            >
+              <LinkedIn />
+            </IconButton>
+            <IconButton
+              href="https://twitter.com"
+              target="_blank"
+              sx={{ color: "inherit" }}
+            >
+              <Twitter />
+            </IconButton>
+            <IconButton
+              href="mailto:careerlift@example.com"
+              sx={{ color: "inherit" }}
+            >
+              <Email />
+            </IconButton>
+          </Box>
+          <Typography variant="body2" sx={{ color: "gray" }}>
+            careerlift@example.com
+          </Typography>
+        </Grid>
+      </Grid>
+
+      {/* Divider */}
+      <Divider sx={{ my: 4, borderColor: isDark ? "#333" : "#ddd" }} />
+
+      {/* Bottom Text */}
+      <Box textAlign="center">
+        <Typography variant="body2" sx={{ color: "gray" }}>
+          © {new Date().getFullYear()} Career Lift. All rights reserved.
+        </Typography>
+      </Box>
+    </Box>
+  );
+};
+
+export default Footer;
