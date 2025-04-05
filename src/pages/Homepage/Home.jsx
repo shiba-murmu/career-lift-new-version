@@ -1,20 +1,20 @@
 import React from "react";
 import Transition from "../../components/sliderEffect/Transition";
+import "./Home.css";
 
-
-function SectionTwo(){
+function SectionTwo() {
   return (
     <>
-      <div>
-        <span className="text-5xl">I am the section two interface...</span>
-        {/* Section two of the homepage. */}
-        
+      <div className="h-96 w-full bgGradient flex items-center">
+        <div className="pl-14">
+          <h1 className="text-2xl md:text-5xl font-bold">
+            Career Lift an opportunity <br /> to elevate your career
+          </h1>
+        </div>
       </div>
     </>
   );
 }
-
-
 
 function Home() {
   return (

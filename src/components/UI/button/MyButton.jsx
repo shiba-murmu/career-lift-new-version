@@ -3,7 +3,9 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 // Add an icon to click the button..
 import AdsClickIcon from "@mui/icons-material/AdsClick";
-import { grey } from "@mui/material/colors";
+
+import './btn.css'
+import { blue } from "@mui/material/colors";
 /**
  *
  * @param {import("@mui/material").ButtonProps} param0
@@ -18,12 +20,14 @@ const MyButton = ({ children }) => {
       <Button
         variant="contained"
         size="large"
+        className="btn-grad"
         sx={{
-          backgroundColor: grey[900],
+          backgroundColor: blue[900],
           "&:hover": {
-            backgroundColor: grey[700],
+            backgroundColor: blue[700],
           },
         }}
+        color="light"
         endIcon={<AdsClickIcon />}
       >
         {children}
