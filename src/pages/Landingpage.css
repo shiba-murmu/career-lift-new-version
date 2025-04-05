@@ -39,7 +39,7 @@
   .content h1 {
     font-size: 7rem;
     margin-bottom: 10px;
-    color: rgb(35, 149, 255);
+    background: linear-gradient(to left, rgba(35, 149, 255, 0), rgb(5, 41, 75));
     /* background-color: aqua; */
   }
 
@@ -76,7 +76,7 @@
   /* ***************************************************************************** */
   /*                     Typewriter effect in the heading.                         */
 .content h1 {
-  animation: typewriter 3s steps(44) infinite alternate, blinkTextCursor 500ms steps(44) infinite;
+  animation: typewriter 7s linear infinite alternate, blinkTextCursor 500ms linear infinite;
   margin-inline: auto;
   overflow: hidden;
   white-space: nowrap;
