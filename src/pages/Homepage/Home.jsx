@@ -7,8 +7,24 @@ function SectionTwo() {
     <>
       <div className="h-96 w-full bgGradient flex items-center">
         <div className="pl-14">
-          <h1 className="text-2xl md:text-5xl font-bold">
-            Career Lift an opportunity <br /> to elevate your career
+          <h1
+            className="text-2xl md:text-6xl font-bold"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: "bolder",
+            }}
+          >
+            Career Lift an opportunity
+          </h1>
+          <br />
+          <h1
+            className="text-2xl md:text-6xl font-bold mt-4"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: "bolder",
+            }}
+          >
+            to elevate your <span className="highlight">career</span>
           </h1>
         </div>
       </div>
