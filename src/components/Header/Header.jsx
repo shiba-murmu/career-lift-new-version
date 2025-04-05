@@ -12,7 +12,8 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 const pages = [
   "Home",
@@ -48,8 +49,8 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
-          <Typography
+          <AutoStoriesIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          {/* <Typography
             variant="h6"
             noWrap
             component="a"
@@ -64,8 +65,8 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            LOGO
-          </Typography>
+            C LIFT
+          </Typography> */}
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -109,7 +110,7 @@ function Header() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <AutoStoriesIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -126,9 +127,9 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            LOGO
+            C LIFT
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } , colorScheme: "dark"}}>
             {pages.map((page) => (
               /**
                * Here also Link tag added to navigate to different pages
