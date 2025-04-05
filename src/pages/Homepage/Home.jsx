@@ -1,6 +1,7 @@
 import React from "react";
 import Transition from "../../components/sliderEffect/Transition";
-import "./Home.css";
+// import "./home.css";
+import './home.css';
 
 function SectionTwo() {
   return (
