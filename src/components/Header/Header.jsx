@@ -120,14 +120,14 @@ function Header() {
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
+              fontFamily: "Open Sans",
+              fontWeight: 400,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            C LIFT
+          CAREER LIFT
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } , colorScheme: "dark"}}>
             {pages.map((page) => (
