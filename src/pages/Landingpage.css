@@ -39,8 +39,14 @@
   .content h1 {
     font-size: 7rem;
     margin-bottom: 10px;
-    background: linear-gradient(to left, rgba(35, 149, 255, 0), rgb(5, 41, 75));
+    /* background: linear-gradient(to left, rgba(35, 149, 255, 0), rgb(5, 41, 75)); */
     /* background-color: aqua; */
+    background: -webkit-linear-gradient(left, #f6ff00, #4c1bff);
+    background: linear-gradient(to right, #f6ff00,#4c1bff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 4rem; */
   }
 
   /* Responsive typography for h1 */
