@@ -6,11 +6,100 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px;
 
+/******************* This is my global css files ***************** */
+/**
+    Font Open-sans and Raleway is used here....
+    Font Open-sans is for heading and Raleway for body fonts...
+**/
+
+
+/* ****************** Open Sans Font ******************* */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-::-webkit-scrollbar-track {
-    background: #e90000;
-} */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-Light.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-Bold.ttf') format('truetype');
+    font-weight: Bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/fonts/Open_sans_font/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* **************************************************** */
+
+
+/* *******************  Raleway font ************************ */
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway_font/Raleway-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
