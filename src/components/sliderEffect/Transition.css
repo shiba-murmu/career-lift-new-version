@@ -13,9 +13,9 @@ body {
   }
 
 .swiper {
-    background: linear-gradient(to right, #000, #555),
-    radial-gradient(circle at 50% 50%, #000, #921919),
-    repeating-linear-gradient(45deg, #000, #555 50px, #000 50px, #555 100px);
+    background: linear-gradient(to bottom, #1e3c72, #2a5298),
+    radial-gradient(circle at 30% 30%, #ff7e5f, #feb47b),
+    repeating-linear-gradient(60deg, #f7f7f7, #cfcfcf 20px, #f7f7f7 40px);
     margin-left: auto;
     margin-right: auto;
     width: 100%;
