@@ -98,10 +98,11 @@ function Header() {
                 // Link tag added here to navigate to different pages
                 // on small screen..
                 <Link
+                  key={page}
                   to={`/${page.toLowerCase()}`}
                   style={{ textDecoration: "none" }}
                 >
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem  onClick={handleCloseNavMenu}>
                     <Typography sx={{ textAlign: "center" }}>{page}</Typography>
                   </MenuItem>
                 </Link>
@@ -134,6 +135,7 @@ function Header() {
                * on large screen...
                */
               <Link
+                key={page}
                 to={`/${page.toLowerCase()}`}
                 style={{ textDecoration: "none" }}
               >
@@ -174,8 +176,8 @@ function Header() {
                  * Add link tags to redirect to different pages
                  * on all screens..
                  */
-                <Link to={`/${setting.toLowerCase()}`}>
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <Link key={setting} to={`/${setting.toLowerCase()}`}>
+                  <MenuItem  onClick={handleCloseUserMenu}>
                     <Typography sx={{ textAlign: "center" }}>
                       {setting}
                     </Typography>
