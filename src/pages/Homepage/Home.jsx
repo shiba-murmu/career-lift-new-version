@@ -55,11 +55,20 @@ function SectionTwo() {
   );
 }
 
+function SectionThree() {
+  return (
+    <>
+      {/* <SectionThree /> */}
+    </>
+  )
+}
+
 function Home() {
   return (
     <>
       <Transition />
       <SectionTwo />
+      <SectionThree />
     </>
   );
 }
