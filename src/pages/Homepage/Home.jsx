@@ -10,7 +10,7 @@ function SectionTwo() {
         <BackgroundParticles />
         <div className="text-center relative">
           <h1
-            className="text-4xl md:text-6xl font-bold"
+            className="text-2xl md:text-6xl font-bold"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -20,7 +20,7 @@ function SectionTwo() {
           </h1>
           <br />
           <h1
-            className="text-4xl md:text-6xl font-bold mt-4"
+            className="text-2xl md:text-6xl font-bold mt-4"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -32,7 +32,7 @@ function SectionTwo() {
         <br />
         <div className="text-center relative">
           <p
-            className="text-sm md:text-2xl text-neutral-400"
+            className="text-x-sm md:text-2xl text-neutral-400"
             style={{
               fontFamily: "'Raleway', sans-serif",
               fontWeight: "SemiBold",
@@ -41,7 +41,7 @@ function SectionTwo() {
             Career lift is the platform where you can explore a wide range of
           </p>
           <p
-            className="text-sm md:text-2xl text-neutral-400"
+            className="text-x-sm md:text-2xl text-neutral-400"
             style={{
               fontFamily: "'Raleway', sans-serif",
               fontWeight: "SemiBold",
