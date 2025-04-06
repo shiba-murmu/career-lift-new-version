@@ -120,7 +120,6 @@ const Footer = () => {
       {/* Divider */}
       <Divider sx={{ my: 4, borderColor: isDark ? "#333" : "#ddd" }} />
 
-      {/* Bottom Text */}
       <Box textAlign="center">
         <Typography variant="body2" sx={{ color: "gray" }}>
           © {new Date().getFullYear()} Career Lift. All rights reserved.
