@@ -17,6 +17,7 @@ const Footer = () => {
 
   return (
     <Box
+      id="footer"
       component="footer"
       sx={{
         backgroundColor: isDark ? "#0A0A0A" : "#F5F5F5",
@@ -25,6 +26,7 @@ const Footer = () => {
         pt: 8,
         pb: 4,
         mt: 10,
+        position: "relative",
         fontFamily: "Raleway, sans-serif", // default for body
       }}
     >

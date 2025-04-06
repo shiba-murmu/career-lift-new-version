@@ -46,7 +46,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="relative" sx={{ zIndex: 1000 }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AutoStoriesIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
