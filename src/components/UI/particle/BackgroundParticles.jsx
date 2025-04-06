@@ -31,14 +31,13 @@ function BackgroundParticles() {
     return (
         init && (
             <Particles
-                // position="fixed"
                 className="w-full h-full absolute top-0 left-0 z-0"
                 id="tsparticles"
                 particlesLoaded={particlesLoaded}
                 options={{
                     background: {
                         color: {
-                            value: "#00000",
+                            value: "#000000",
                         },
                     },
                     fpsLimit: 120,

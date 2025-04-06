@@ -1,7 +1,6 @@
 import React from "react";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
-// import ParticlesBackground from "./components/particle/ParticlesBackground";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
 function SectionTwo() {
   return (
