@@ -1,7 +1,12 @@
 import React from "react";
 import gsap from "gsap";
 // import useGsap from "../../hooks/useGsap";
-import useGsap from "gsap";
+import { useRef , useEffect } from "react";
+// import {useIsInViewport} from 'react-intersection-observer';
+// import { useIsInViewport} from "../../hooks/useIsInViewport";
+import { useIsInViewport } from "react-intersection-observer";
+// import useGsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
@@ -137,30 +142,43 @@ function SectionFour() {
    * By the help of gsap library we can animate the text
    * 
    */
-   useGsap(()=>{
-    gsap.to(".animate", {
-      scrollTrigger: {
-        trigger: ".animate",
-        start: "top 70%",
-        end: "top 10%",
-        scrub: 1,
-      },
-      duration: 2,
-      ease: "none",
-      repeat: -1,
-      repeatDelay: 1,
-      y: 20,
-    });
-   });
+  const textRef = useRef(null);
+  const isSectionVisible = useIsInViewport(textRef);
+  useGSAP(() => {
+    const textElement = textRef.current;
+    if (isSectionVisible) {
+      gsap.from(textElement, {
+        duration: 3,
+        y: 400,
+        opacity: 10,
+        ease: "power4.inOut",
+        stagger: {
+          each: 0.05,
+          grid: [1, 15],
+          from: "center",
+        },
+      });
+    }
+  }, [isSectionVisible]);
+
   return (
     <>
       <div className=" relative min-h-screen w-full grid place-items-center">
-        <div className="text-white text">
-          <span className="text text-8xl animate">EXPLORE US</span>
+        <div className="text-white text" ref={textRef}>
+          <span className="text text-8xl">EXPLORE US</span>
         </div>
       </div>
     </>
   );
+  // return (
+  //   <>
+  //     <div className=" relative min-h-screen w-full grid place-items-center">
+  //       <div className="text-white text">
+  //         <span className="text text-8xl animate">EXPLORE US</span>
+  //       </div>
+  //     </div>
+  //   </>
+  // );
 }
 
 function Home() {
