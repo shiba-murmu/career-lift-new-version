@@ -70,7 +70,8 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className="min-h-screen bg-gray-900 py-10 w-full">
+      <div className=" relative min-h-screen bg-gray-700 py-10 w-full">
+        {/* <BackgroundParticles /> */}
         <div className="md:flex px-5">
           <div className="text-start relative md:w-1/2 px-10 flex flex-col h-96 justify-center">
             <div>
@@ -119,7 +120,7 @@ function SectionThree() {
             /> */}
             <img
               src="https://img.freepik.com/free-psd/marketing-character-composition-rendering_23-2151703489.jpg?semt=ais_hybrid&w=740"
-              className="rounded-2xl h-60 w-80 md:h-90 md:w-96 object-cover"
+              className="rounded h-60 w-80 md:h-90 md:w-96 object-cover"
             />
             {/* <div>
               <h1
@@ -152,7 +153,7 @@ function SectionThree() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-10">
-          <div className="w-1/2 text-center bg-blue-700 rounded-2xl p-5 mb-5">
+          <div className="w-1/2 text-center transparent  shadow-lg shadow-gray-300 rounded p-10 mb-5">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               velit fuga consequatur dolorem aspernatur sed perferendis

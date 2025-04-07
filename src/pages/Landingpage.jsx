@@ -17,7 +17,7 @@ function Landingpage() {
           <h1 className="text-5xl md:text-9xl font-extrabold"  style={{fontFamily: "'Open Sans', sans-serif", fontWeight: "bold"}}>Career Lift</h1>
           <p className="text-lg md:text-2xl">Explore opportunities to elevate your career with Career Lift</p>
           <Link to="/home">
-            <MyButton className="btn-grad">Get Started</MyButton>
+            <MyButton className="btn-grad" >Get Started</MyButton>
           </Link>
         </div>
       </div>

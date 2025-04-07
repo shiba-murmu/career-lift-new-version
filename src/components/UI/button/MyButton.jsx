@@ -26,8 +26,12 @@ const MyButton = ({ children }) => {
           "&:hover": {
             backgroundColor: blue[700],
           },
+          width: {
+            xs: '100%',  // full width on extra-small screens
+            sm: 'auto',  // auto width on small and larger screens
+          },
         }}
-        color="light"
+        color = "light"
         endIcon={<AdsClickIcon />}
       >
         {children}
