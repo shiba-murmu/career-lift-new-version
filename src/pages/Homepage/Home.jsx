@@ -1,4 +1,7 @@
 import React from "react";
+import gsap from "gsap";
+// import useGsap from "../../hooks/useGsap";
+import useGsap from "gsap";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
@@ -130,11 +133,30 @@ function SectionThree() {
 }
 
 function SectionFour() {
+  /**
+   * By the help of gsap library we can animate the text
+   * 
+   */
+   useGsap(()=>{
+    gsap.to(".animate", {
+      scrollTrigger: {
+        trigger: ".animate",
+        start: "top 70%",
+        end: "top 10%",
+        scrub: 1,
+      },
+      duration: 2,
+      ease: "none",
+      repeat: -1,
+      repeatDelay: 1,
+      y: 20,
+    });
+   });
   return (
     <>
       <div className=" relative min-h-screen w-full grid place-items-center">
-        <div className="text-white">
-          Find Us On
+        <div className="text-white text">
+          <span className="text text-8xl animate">EXPLORE US</span>
         </div>
       </div>
     </>
