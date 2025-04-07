@@ -11,13 +11,13 @@ function SectionTwo() {
   return (
     <>
       <div
-        className="min-h-screen w-full flex justify-center flex-col items-center"
+        className="h-1/2  md:min-h-screen w-full md:flex md:justify-center md:flex-col md:items-center"
         style={{ position: "relative", overflow: "hidden" }}
       >
         {/* <BackgroundParticles /> */}
-        <div className="text-center relative">
+        <div className="text-center flex flex-col justify-center items-center h-full relative">
           <h1
-            className="text-2xl md:text-5xl font-bold"
+            className="text-3xl md:text-5xl font-bold"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -26,7 +26,7 @@ function SectionTwo() {
             Career Lift an opportunity
           </h1>
           <h1
-            className="text-2xl md:text-5xl font-bold mt-4"
+            className="text-3xl md:text-5xl font-bold mt-2"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -69,9 +69,9 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className="min-h-screen w-full flex justify-start flex-col items-start">
-        <div className="flex px-5">
-          <div className="text-start relative w-1/2 px-10 flex flex-col justify-center">
+      <div className="min-h-screen w-full">
+        <div className="md:flex px-5">
+          <div className="text-start relative md:w-1/2 px-10 flex flex-col h-96 justify-center">
             <div>
               {/* For heading divs */}
               <h1
@@ -110,11 +110,15 @@ function SectionThree() {
             </p>
           </div>
 
-          <div className="w-1/2 h-96 relative">
-            <img
-              src="https://img.freepik.com/free-photo/bussiness-people-working-team-office_1303-22863.jpg?semt=ais_hybrid&w=740"
+          <div className="md:w-1/2 grid place-items-center  relative">
+            {/* <img
+              src="https://img.freepik.com/premium-photo/fun-illustration-cartoon-backpacker_183364-55759.jpg?semt=ais_hybrid&w=740"
               alt="Bulding images"
               className="rounded-4xl"
+            /> */}
+            <img
+              src="https://img.freepik.com/free-psd/marketing-character-composition-rendering_23-2151703489.jpg?semt=ais_hybrid&w=740"
+              className="rounded-2xl h-96 w-full object-cover"
             />
             {/* <div>
               <h1
