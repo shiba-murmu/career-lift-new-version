@@ -110,7 +110,7 @@ function SectionThree() {
             </p>
           </div>
 
-          <div className="w-1/2 h-96">
+          <div className="w-1/2 h-96 relative">
             <img
               src="https://img.freepik.com/free-photo/bussiness-people-working-team-office_1303-22863.jpg?semt=ais_hybrid&w=740"
               alt="Bulding images"
