@@ -71,7 +71,7 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className=" min-h-screen w-full flex justify-start flex-col items-start">
+      <div className="min-h-screen w-full flex justify-start flex-col items-start">
         <div className="flex">
           <div className="text-start relative w-1/2">
             <div>
