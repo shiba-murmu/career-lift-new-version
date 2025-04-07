@@ -16,9 +16,9 @@ function SectionTwo() {
         style={{ position: "relative", overflow: "hidden" }}
       >
         <BackgroundParticles />
-        <div className="text-center flex  flex-col justify-center items-center h-full relative md:border-hidden border-b-2 border-gray-600">
+        <div className="text-center flex  flex-col justify-center items-center h-full relative">
           <h1
-            className="text-2xl md:text-5xl"
+            className="text-2xl md:text-5xl text-white"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -27,7 +27,7 @@ function SectionTwo() {
             CAREER LIFT OPPORTUNITY
           </h1>
           <h1
-            className="text-2xl md:text-5xl font-bold mt-2"
+            className="text-2xl md:text-5xl font-bold mt-2 text-white"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -77,7 +77,7 @@ function SectionThree() {
             <div>
               {/* For heading divs */}
               <h1
-                className="text-2xl md:text-5xl font-bold"
+                className="text-2xl md:text-5xl font-bold text-white"
                 style={{
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: "bolder",
@@ -122,22 +122,19 @@ function SectionThree() {
               src="https://img.freepik.com/free-psd/marketing-character-composition-rendering_23-2151703489.jpg?semt=ais_hybrid&w=740"
               className="rounded h-60 w-80 md:h-90 md:w-96 object-cover"
             />
-           
           </div>
         </div>
+      </div>
+    </>
+  );
+}
 
-        <div className="flex flex-col justify-center items-center mt-10">
-          {/* <div className="w-1/2 text-center transparent  shadow-lg shadow-gray-300 rounded p-10 mb-5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              velit fuga consequatur dolorem aspernatur sed perferendis
-              temporibus quam voluptatem. Iure esse sed error eum doloribus
-              expedita quis deserunt reprehenderit ipsa?
-            </p>
-          </div> */}
-          <div>
-            <MyButton>Explore Our platform</MyButton>
-          </div>
+function SectionFour() {
+  return (
+    <>
+      <div className=" relative min-h-screen w-full grid place-items-center">
+        <div className="text-white">
+          Find Us On
         </div>
       </div>
     </>
@@ -150,6 +147,7 @@ function Home() {
       <Transition />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </>
   );
 }
