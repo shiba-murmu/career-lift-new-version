@@ -17,7 +17,7 @@ function SectionTwo() {
         {/* <BackgroundParticles /> */}
         <div className="text-center relative">
           <h1
-            className="text-2xl  md:text-6xl font-bold"
+            className="text-2xl md:text-6xl font-bold"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
