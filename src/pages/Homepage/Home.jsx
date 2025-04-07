@@ -25,7 +25,6 @@ function SectionTwo() {
           >
             Career Lift an opportunity
           </h1>
-          <br />
           <h1
             className="text-2xl md:text-6xl font-bold mt-4"
             style={{
@@ -36,7 +35,6 @@ function SectionTwo() {
             to elevate your <span className="highlight">career</span>
           </h1>
         </div>
-        <br />
         <div className="text-center relative">
           <p
             className="text-sm md:text-xl text-neutral-400"
@@ -112,7 +110,7 @@ function SectionThree() {
           </div>
 
           <div className="w-1/2">
-            <div>
+            <div >
               <h1
                 className="text-2xl md:text-6xl font-bold"
                 style={{
