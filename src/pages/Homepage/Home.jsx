@@ -70,7 +70,7 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className=" relative min-h-screen bg-gray-700 py-10 w-full">
+      <div className=" relative min-h-screen bg-gray-900 py-10 w-full">
         {/* <BackgroundParticles /> */}
         <div className="md:flex px-5">
           <div className="text-start relative md:w-1/2 px-10 flex flex-col h-96 justify-center">
@@ -112,7 +112,7 @@ function SectionThree() {
             </p>
           </div>
 
-          <div className="md:w-1/2 grid place-items-center  relative">
+          <div className="md:w-1/2 grid place-items-center-safe  relative">
             {/* <img
               src="https://img.freepik.com/premium-photo/fun-illustration-cartoon-backpacker_183364-55759.jpg?semt=ais_hybrid&w=740"
               alt="Bulding images"
@@ -127,14 +127,14 @@ function SectionThree() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-10">
-          <div className="w-1/2 text-center transparent  shadow-lg shadow-gray-300 rounded p-10 mb-5">
+          {/* <div className="w-1/2 text-center transparent  shadow-lg shadow-gray-300 rounded p-10 mb-5">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               velit fuga consequatur dolorem aspernatur sed perferendis
               temporibus quam voluptatem. Iure esse sed error eum doloribus
               expedita quis deserunt reprehenderit ipsa?
             </p>
-          </div>
+          </div> */}
           <div>
             <MyButton>Explore Our platform</MyButton>
           </div>
