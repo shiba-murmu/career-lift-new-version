@@ -29,7 +29,7 @@ export default function Transition() {
           clickable: true,
         }}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 0,
           stretch: 30,
           depth: 1500,
           modifier: 1,
@@ -43,28 +43,52 @@ export default function Transition() {
           <img src="/images/career.jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://assets-us-01.kc-usercontent.com/b1495851-c47d-0087-29c8-65e1780b1b3b/c9009e76-a432-4ba1-a560-f22f8bf65e06/AI%20Square.png" />
+          <img src="https://img.freepik.com/free-photo/low-angle-businesswoman-posing-with-arms-crossed-outdoors_23-2148767034.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjUP3Gm7i2kGup1sxiZrS9iqiD7rXVyhLA4g&s" />
+          <img src="https://img.freepik.com/premium-photo/close-up-young-people-greeting-each-other-work-table_160672-19772.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://media.istockphoto.com/id/1371879631/vector/business-journey-businessman-walking-on-long-winding-path-going-to-success-in-the-future.jpg?s=612x612&w=0&k=20&c=VtgGNFpLo8v5lWXW0rWqa21Fh_i5bvLvJ2gA4pCqpR0=" />
+          <img src="https://img.freepik.com/premium-photo/team-diversity-corporate-portrait-office-confidence-happy-proud-startup-woman-men-business-people-together-lobby-collaboration-partnership-support-teamwork_590464-371187.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNK35UOgK4nJXxPLvjGKLbzAGBG7PpcnEvgA&s" />
+          <img src="https://img.freepik.com/free-photo/male-female-business-people-working-tablet-office_1303-22827.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuamCpOUG3NOO3hY9-RrBhNCmHJeU5l7tv9A&s" />
+          <img src="https://img.freepik.com/premium-photo/leadership-success-concept_670147-41839.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://gitservices.com/wp-content/uploads/2023/12/DALL%C2%B7E-2023-12-28-00.18.16-An-individual-standing-at-a-crossroads-signpost-with-paths-leading-to-AI-Engineering-and-Other-Careers.-The-scene-captures-a-moment-of-career-dec-1024x585.png" />
+          <img src="https://img.freepik.com/free-photo/worker-with-career-word_1156-556.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://media.licdn.com/dms/image/v2/D5612AQEZYH2Nj4Yb6w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1708069674848?e=2147483647&v=beta&t=0Z73Csrk6PwGMPeDRJ6KE5q7Am9S-Ybh-kwpnMctyZA" />
+          <img src="https://img.freepik.com/free-photo/portrait-woman-working-startup-company_23-2149116501.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://static.vecteezy.com/system/resources/thumbnails/032/057/059/small/successful-businessman-raising-arms-like-a-winner-standing-on-roof-of-office-building-with-city-view-ai-generated-photo.jpg" />
+          <img src="https://img.freepik.com/free-photo/employee-working-with-document_23-2151872284.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/businessman-walking-promotion_1156-559.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/turning-back-group-young-people-walking-office-their-break-time_146671-16590.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/group-business-executives-smiling-camera_1170-1894.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/rag-doll-red-word-career_1156-191.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/businessman-drawing-keys-success_1134-645.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/free-photo/rag-doll-walking-blue-word-success_1156-190.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/premium-photo/office-pride-businesswoman-portrait-career-startup-progress-happy-with-job-creative-agency-female-person-graphic-designer-with-positive-attitude-tasks-planning-laptop_590464-479453.jpg?semt=ais_hybrid&w=740" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://img.freepik.com/premium-photo/businessman-run-career-ladder-business-concept-isolated-contains-clipping-path_1401-1683.jpg?semt=ais_hybrid&w=740" />
         </SwiperSlide>
       </Swiper>
     </>
