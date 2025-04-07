@@ -9,3 +9,15 @@
     border-right: 2px solid rgb(10, 166, 151);
     display: inline-block;
 }
+
+.highlight2 {
+    background-color: rgba(20, 183, 166, 0.1);
+    color: rgb(244, 0, 0);
+    padding-bottom:  0.1em;
+    padding-inline-start: 0.2em;
+    padding-inline-end: 0.2em;
+    border-top-left-radius: 0.1em;
+    border-bottom-left-radius: 0.1em;
+    border-right: 2px solid rgb(10, 166, 151);
+    display: inline-block;
+}
