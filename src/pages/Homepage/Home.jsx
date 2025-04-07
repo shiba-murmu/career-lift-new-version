@@ -17,7 +17,7 @@ function SectionTwo() {
         {/* <BackgroundParticles /> */}
         <div className="text-center relative">
           <h1
-            className="text-2xl md:text-6xl font-bold"
+            className="text-2xl md:text-5xl font-bold"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -26,7 +26,7 @@ function SectionTwo() {
             Career Lift an opportunity
           </h1>
           <h1
-            className="text-2xl md:text-6xl font-bold mt-4"
+            className="text-2xl md:text-5xl font-bold mt-4"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -70,12 +70,12 @@ function SectionThree() {
     <>
       {/* <SectionThree /> */}
       <div className="min-h-screen w-full flex justify-start flex-col items-start">
-        <div className="flex">
-          <div className="text-start relative w-1/2">
+        <div className="flex px-5">
+          <div className="text-start relative w-1/2 px-10 flex flex-col justify-center">
             <div>
               {/* For heading divs */}
               <h1
-                className="text-2xl md:text-6xl font-bold"
+                className="text-2xl md:text-5xl font-bold"
                 style={{
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: "bolder",
@@ -104,13 +104,19 @@ function SectionThree() {
                 fontWeight: "SemiBold",
               }}
             >
-              opportunities to elevate your career with the
-              <b className="highlight">help of AI assistant.</b>
+              Our platform is designed to help you grow your career by providing
+              you the right
+              <b className="highlight2">tools and resources.</b>
             </p>
           </div>
 
-          <div className="w-1/2">
-            <div >
+          <div className="w-1/2 h-96">
+            <img
+              src="https://img.freepik.com/free-photo/bussiness-people-working-team-office_1303-22863.jpg?semt=ais_hybrid&w=740"
+              alt="Bulding images"
+              className="rounded-4xl"
+            />
+            {/* <div>
               <h1
                 className="text-2xl md:text-6xl font-bold"
                 style={{
@@ -136,7 +142,7 @@ function SectionThree() {
                 mollitia accusamus saepe unde sunt sapiente voluptas atque
                 eveniet quibusdam!
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
