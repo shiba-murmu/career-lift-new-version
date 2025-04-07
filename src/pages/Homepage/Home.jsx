@@ -155,7 +155,7 @@ function SectionFour() {
       </div>
     </>
   );
- 
+}
 
 function Home() {
   return (
