@@ -1,15 +1,5 @@
 import React from "react";
-
-// gsap.registerPlugin(ScrollTrigger);
-// import TextShow from "../../components/animation/TextShow";
 import TextShow from "../../components/animation/TextShow";
-// import useGsap from "../../hooks/useGsap";
-// import { useRef , useEffect } from "react";
-// import {useIsInViewport} from 'react-intersection-observer';
-// import { useIsInViewport} from "../../hooks/useIsInViewport";
-// import { useInView } from "react-intersection-observer";
-// import useGsap from "gsap";
-// import { useGSAP } from "@gsap/react";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
