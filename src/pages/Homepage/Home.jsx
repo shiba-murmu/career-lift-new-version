@@ -11,7 +11,7 @@ function SectionTwo() {
   return (
     <>
       <div
-        className=" min-h-screen w-full flex justify-center flex-col items-center"
+        className="min-h-screen w-full flex justify-center flex-col items-center"
         style={{ position: "relative", overflow: "hidden" }}
       >
         {/* <BackgroundParticles /> */}
