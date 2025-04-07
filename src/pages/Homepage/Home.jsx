@@ -122,33 +122,7 @@ function SectionThree() {
               src="https://img.freepik.com/free-psd/marketing-character-composition-rendering_23-2151703489.jpg?semt=ais_hybrid&w=740"
               className="rounded h-60 w-80 md:h-90 md:w-96 object-cover"
             />
-            {/* <div>
-              <h1
-                className="text-2xl md:text-6xl font-bold"
-                style={{
-                  fontFamily: "'Open Sans', sans-serif",
-                  fontWeight: "bolder",
-                }}
-              >
-                Take a <span className="highlight">skill</span> test
-              </h1>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                voluptate officia necessitatibus illum assumenda, earum
-                repellendus omnis excepturi eaque et cum ducimus! Suscipit
-                voluptatum autem totam laboriosam similique consectetur laborum?
-                Facere quibusdam voluptas ut repellendus a odio enim est optio
-                aliquam, eos dignissimos ipsa sit eligendi voluptates culpa
-                officiis sunt necessitatibus quas eius. Rerum ratione doloribus
-                nemo totam. Quasi, nulla? Neque porro repellat, unde, nemo odit
-                quis asperiores numquam consectetur reprehenderit officiis illo
-                facere sit. Veniam aliquid debitis, voluptates explicabo
-                mollitia accusamus saepe unde sunt sapiente voluptas atque
-                eveniet quibusdam!
-              </p>
-            </div> */}
+           
           </div>
         </div>
 
