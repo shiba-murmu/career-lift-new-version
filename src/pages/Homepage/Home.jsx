@@ -85,44 +85,45 @@ function SectionThree() {
                   fontWeight: "bolder",
                 }}
               >
-                BUILD YOUR <span className="highlight">CAREER</span>
+                <TextShow>
+                  BUILD YOUR <span className="highlight">CAREER</span>
+                </TextShow>
               </h1>
             </div>
-            <p
-              className="text-sm md:text-xl text-neutral-400"
-              style={{
-                fontFamily: "'Raleway', sans-serif",
-                fontWeight: "SemiBold",
-              }}
-            >
-              With Career Lift, you can build your career by exploring a wide
-              range of job opportunities, getting guidance from AI assistant,
-              and by taking skill tests to showcase your skills. Our platform is
-              designed to help you grow your career by providing you the right
-              tools and resources.
-            </p>
-            <p
-              className="text-sm md:text-xl text-neutral-400"
-              style={{
-                fontFamily: "'Raleway', sans-serif",
-                fontWeight: "SemiBold",
-              }}
-            >
-              Our platform is designed to help you grow your career by providing
-              you the right
-              <b className="highlight2">tools and resources.</b>
-            </p>
+            <TextShow>
+              <p
+                className="text-sm md:text-xl text-neutral-400"
+                style={{
+                  fontFamily: "'Raleway', sans-serif",
+                  fontWeight: "SemiBold",
+                }}
+              >
+                With Career Lift, you can build your career by exploring a wide
+                range of job opportunities, getting guidance from AI assistant,
+                and by taking skill tests to showcase your skills. Our platform
+                is designed to help you grow your career by providing you the
+                right tools and resources.
+              </p>
+            </TextShow>
+            <TextShow>
+              <p
+                className="text-sm md:text-xl text-neutral-400"
+                style={{
+                  fontFamily: "'Raleway', sans-serif",
+                  fontWeight: "SemiBold",
+                }}
+              >
+                Our platform is designed to help you grow your career by
+                providing you the right
+                <b className="highlight2">tools and resources.</b>
+              </p>
+            </TextShow>
           </div>
 
           <div className="md:w-1/2 grid place-items-center-safe  relative">
-            {/* <img
-              src="https://img.freepik.com/premium-photo/fun-illustration-cartoon-backpacker_183364-55759.jpg?semt=ais_hybrid&w=740"
-              alt="Bulding images"
-              className="rounded-4xl"
-            /> */}
             <img
-              src="https://img.freepik.com/free-psd/marketing-character-composition-rendering_23-2151703489.jpg?semt=ais_hybrid&w=740"
-              className="rounded h-60 w-80 md:h-90 md:w-96 object-cover"
+              src="./images/otherCareer.png"
+              className="rounded h-80 w-80 md:h-96 md:w-96 object-cover"
             />
           </div>
         </div>
@@ -132,7 +133,6 @@ function SectionThree() {
 }
 
 function SectionFour() {
-
   /**
    * By the help of gsap library we can animate the text
    * From this function...
