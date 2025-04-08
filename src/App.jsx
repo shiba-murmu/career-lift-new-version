@@ -1,10 +1,9 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
   useLocation,
 } from "react-router-dom";
 
@@ -12,20 +11,20 @@ import {
 /**
  * Here using code for dark themes for whole website
  * its a global theme
- * 
- * 
- * 
+ *
+ *
+ *
  *    {{{{Below code is full code for dark theme}}}}
- * 
+ *
  * import { ThemeProvider, createTheme } from '@mui/material/styles';
  * import CssBaseline from '@mui/material/CssBaseline';
- * 
+ *
  * const darkTheme = createTheme({
  *   palette: {
  *     mode: 'dark',
  *   },
  * });
- * 
+ *
  * export default function App() {
  *   return (
  *     <ThemeProvider theme={darkTheme}>
@@ -34,8 +33,8 @@ import {
  *     </ThemeProvider>
  *   );
  * }
- * 
- * 
+ *
+ *
  */
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -96,23 +95,23 @@ function App() {
   return (
     <>
       {/* Here all the routes for the page available here... */}
-      <Router>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Landingpage />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/ai assistant" element={<Ai />} />
-            <Route path="/skill test" element={<SkillTest />} />
-            <Route path="/explore career" element={<ExploreCareer />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/settings" element={<Setting />} />
-            <Route path="/account" element={<Account />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-          </Routes>
-        </Layout>
-      </Router>
+        <Router>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Landingpage />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/ai assistant" element={<Ai />} />
+              <Route path="/skill test" element={<SkillTest />} />
+              <Route path="/explore career" element={<ExploreCareer />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/settings" element={<Setting />} />
+              <Route path="/account" element={<Account />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+            </Routes>
+          </Layout>
+        </Router>
     </>
   );
 }
