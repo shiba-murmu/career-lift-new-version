@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MyButton from "../components/UI/button/MyButton";
+import RotatingLettersWithGSAP from "../components/animation/RotatingLettersWithGSAP";
 import "./Landingpage.css";
 function Landingpage() {
   return (
@@ -14,8 +15,8 @@ function Landingpage() {
         {/* Content */}
         <div className="relative z-50 flex flex-col items-center justify-center  h-full bg-transparent">
           <div className="mb-4">
-            <h1 className="text-5xl text-center  md:text-9xl text-white" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>
-              Career Lift
+            <h1 style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>
+              <RotatingLettersWithGSAP word="CAREER LIFT" />
             </h1>
             <p className="text-md md:text-4xl text-center  text-amber-300" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: "SemiBold" }}>
               Find your dream job with Career Lift
