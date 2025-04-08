@@ -38,8 +38,9 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div>
-          Pending Contents...
+        <div className="h-96 w-full bg-gray-600">
+          {/* Pending Contents... */}
+          <span className="text-2xl md:text-5xl text-white" style={{ fontFamily: "Open Sans, sans-serif" , fontWeight: "bold"}}>Pending Contents...</span>
         </div>
 
       </div>
