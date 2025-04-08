@@ -1,8 +1,6 @@
 import React from "react";
 import { Avatar, Box, Typography } from "@mui/material";
-// import { MyButton } from '../../components/UI/button/MyButton'
-// import { Button } from "@mui/material";
-// import {ButtonForUse} from '../../components/UI/button/ButtonForUse';
+import Button from "@mui/material/Button";
 import './profile.css'
 function Profile() {
   return (
@@ -19,7 +17,7 @@ function Profile() {
           </div>
         </div>
         <div className="h-76 md:h-70 bg-amber-300">
-          <div className="absolute top-84  md:left-96 md:top-70">
+          <div className="absolute top-84   md:left-96 md:top-70 md:p-2">
             <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
             <p className="hidden md:block">A passonate software developer.</p>
             <p className="hidden md:block">
@@ -32,9 +30,18 @@ function Profile() {
             <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
             </p>
-            
+            <div className="grid place-content-center p-2 md:flex md:justify-start md:items-center md:p-2">
+              {/* <ButtonForUse>Click me</ButtonForUse> */}
+              {/* <MyButton>Click me</MyButton> */}
+              <Button variant="contained" color="secondary">Contact</Button>
+              {/* <Button variant="contained" color="secondary"></Button> */}
+            </div>
           </div>
         </div>
+        <div>
+          Pending Contents...
+        </div>
+
       </div>
     </>
   );
