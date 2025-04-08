@@ -1,3 +1,5 @@
+/* Background video animations only here... available here. */
+
 .video-container {
     position: relative;
     width: 100%;
@@ -24,6 +26,5 @@
     background: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.5 for a darker effect) */
   }
   
- 
 /* ***************************************************************************** */
 
