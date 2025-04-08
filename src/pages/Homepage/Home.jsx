@@ -140,7 +140,7 @@ function SectionFour() {
 
   return (
     <>
-      <div className=" relative min-h-screen w-full grid place-items-center text-9xl  font-bold r from-[#ff7e5f] to-[#feb47b]">
+      <div className="relative h-64 md:min-h-screen w-full grid place-items-center text-2xl  md:text-9xl  font-bold text-white">
         <TextShow>EXPLORE US</TextShow>
       </div>
     </>
