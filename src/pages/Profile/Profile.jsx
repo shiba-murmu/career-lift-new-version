@@ -25,7 +25,7 @@ function Profile() {
             </p>
 
             {/* Below text will be hide id the screen size will be large */}
-            <h2 className="text-4xl md:hidden text-center " style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
+            <h2 className="text-4xl md:hidden text-center " style={{ fontFamily: "Open Sans, sans-serif"}}>Puja Kujur</h2>
             <p className="text-center md:hidden">A passonate software developer.</p>
             <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
