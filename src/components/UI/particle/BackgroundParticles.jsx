@@ -30,6 +30,11 @@ function BackgroundParticles() {
 
     return (
         init && (
+            /**
+             * Here we have used component type particles 
+             * so that we can you any types of tsparticles animations as we want.
+             */
+
             <BackgroundParticleTwo /> 
             // <Particles
             //     className="w-full h-full absolute top-0 left-0 z-0"
