@@ -5,8 +5,8 @@ const  ParticleConfig =  {
         "autoPlay": true,
         "background": {
           "color": {
-            // "value": "#000000"
-            "value" : "#222222"
+            "value": "#000000"
+            // "value" : "#222222"
           },
           "image": "",
           "position": "",
