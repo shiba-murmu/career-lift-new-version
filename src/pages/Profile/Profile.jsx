@@ -18,7 +18,7 @@ function Profile() {
         </div>
         <div className="h-76 md:h-70 bg-amber-300">
           <div className="absolute top-84   md:left-96 md:top-70 md:p-2">
-            <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Puja Kujur</h2>
+            <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Puja Kujur_</h2>
             <p className="hidden md:block">A passonate software developer.</p>
             <p className="hidden md:block">
               I am a full-stack web developer with a passion for UI/UX design and writing.
