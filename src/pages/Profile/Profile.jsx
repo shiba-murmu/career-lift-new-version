@@ -8,17 +8,26 @@ function Profile() {
       <div className="h-screen ">
         <div className="h-48 w-full bgColor grid place-content-evenly">
           <div className="hidden md:block">
-            <span className="text-2xl md:text-6xl text-white font-bold"  style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}>SHIBA MURMU</span>
+            <span className="text-2xl md:text-6xl text-white font-bold"  style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}>
+              SHIBA MURMU
+            </span>
           </div>
           <div className="h-60 w-60 absolute left-22 md:left-32 md:top-50 top-26 rounded-4xl">
             <img src="/images/career.jpeg"className=""  style={{ borderRadius: "25%" }} alt="User image" />
           </div>
         </div>
         <div className="h-96">
-          <div className="absolute md:left-96 md:top-70">
-            <h2 className="text-4xl" style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
-            <p>A passonate software developer.</p>
-            <p>
+          <div className="absolute top-90  md:left-96 md:top-70">
+            <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
+            <p className="hidden md:block">A passonate software developer.</p>
+            <p className="hidden md:block">
+              I am a full-stack web developer with a passion for UI/UX design and writing.
+            </p>
+
+            {/* Below text will be hide id the screen size will be large */}
+            <h2 className="text-4xl md:hidden text-center " style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
+            <p className="text-center md:hidden">A passonate software developer.</p>
+            <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
             </p>
           </div>
