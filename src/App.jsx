@@ -70,6 +70,7 @@ import Profile from "./pages/Profile/Profile";
 import Setting from "./pages/Settings/Setting";
 import Account from "./pages/Account/Account";
 import Dashboard from "./pages/Dashboard/Dashboard";
+import SignUp from "./pages/SignUp/SignUp";
 
 // ****************************************************
 
@@ -109,6 +110,7 @@ function App() {
               <Route path="/settings" element={<Setting />} />
               <Route path="/account" element={<Account />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/signup" element={<SignUp />} />
             </Routes>
           </Layout>
         </Router>
