@@ -23,7 +23,7 @@ const pages = [
   "About",
   "Contact",
 ];
-const settings = ["Profile", "Account", "Dashboard", "Settings", "Logout"];
+const settings = ["Profile", "Account", "Dashboard", "Settings", "Logout", "Signup"];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
