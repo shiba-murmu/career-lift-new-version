@@ -1,6 +1,8 @@
 import React from "react";
 import { Avatar, Box, Typography } from "@mui/material";
 // import { MyButton } from '../../components/UI/button/MyButton'
+// import { Button } from "@mui/material";
+// import {ButtonForUse} from '../../components/UI/button/ButtonForUse';
 import './profile.css'
 function Profile() {
   return (
@@ -13,10 +15,10 @@ function Profile() {
             </span>
           </div>
           <div className="h-60 w-60 absolute left-22 md:left-32 md:top-50 top-26 rounded-4xl">
-            <img src="/images/career.jpeg"className=""  style={{ borderRadius: "25%" }} alt="User image" />
+            <img src="/images/career.jpeg"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
           </div>
         </div>
-        <div className="h-96">
+        <div className="h-76 md:h-70 bg-amber-300">
           <div className="absolute top-90  md:left-96 md:top-70">
             <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
             <p className="hidden md:block">A passonate software developer.</p>
@@ -30,6 +32,9 @@ function Profile() {
             <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
             </p>
+            <div>
+              {/* <ButtonForUse colorBackground="success">Connect</ButtonForUse> */}
+            </div>
           </div>
         </div>
       </div>
