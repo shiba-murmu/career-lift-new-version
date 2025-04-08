@@ -13,7 +13,7 @@ function Profile() {
             </span>
           </div>
           <div className="h-44 w-44 md:h-60 md:w-60 absolute left-28 md:left-32 md:top-50 top-35 rounded-4xl">
-            <img src="/images/sangita.jpg"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
+            <img src="/images/sangita.png"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
           </div>
         </div>
         <div className="h-76 md:h-70 bg-amber-300">
