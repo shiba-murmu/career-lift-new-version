@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import MyButton from "../components/UI/button/MyButton";
 import MyButton from "../components/UI/button/MyButton";
 import "./Landingpage.css";
 function Landingpage() {
@@ -13,12 +12,20 @@ function Landingpage() {
         {/* Dark Overlay */}
         <div className="overlay"></div>
         {/* Content */}
-        <div className="content">
-          <h1 className="text-5xl md:text-9xl font-extrabold"  style={{fontFamily: "'Open Sans', sans-serif", fontWeight: "bold"}}>Career Lift</h1>
-          <p className="text-lg md:text-2xl">Explore opportunities to elevate your career with Career Lift</p>
-          <Link to="/home">
-            <MyButton className="btn-grad" >Get Started</MyButton>
-          </Link>
+        <div className="relative z-50 flex flex-col items-center justify-center  h-full bg-transparent">
+          <div className="mb-4">
+            <h1 className="text-5xl text-center  md:text-9xl text-white" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>
+              Career Lift
+            </h1>
+            <p className="text-md md:text-4xl text-center  text-amber-300" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: "SemiBold" }}>
+              Find your dream job with Career Lift
+            </p>
+          </div>
+          <div>
+            <Link to={"/home"}>
+              <MyButton>Get Started</MyButton>
+            </Link>
+          </div>
         </div>
       </div>
     </>
