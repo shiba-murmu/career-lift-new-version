@@ -9,17 +9,17 @@ function Profile() {
     <>
       <div className="h-screen ">
         <div className="h-48 w-full bgColor grid place-content-evenly">
-          <div className="hidden md:block">
+          <div className="hidden md:hidden lg:block">
             <span className="text-2xl md:text-6xl text-white font-bold"  style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}>
               SHIBA MURMU
             </span>
           </div>
-          <div className="h-60 w-60 absolute left-22 md:left-32 md:top-50 top-26 rounded-4xl">
+          <div className="h-44 w-44 md:h-60 md:w-60 absolute left-28 md:left-32 md:top-50 top-35 rounded-4xl">
             <img src="/images/career.jpeg"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
           </div>
         </div>
         <div className="h-76 md:h-70 bg-amber-300">
-          <div className="absolute top-90  md:left-96 md:top-70">
+          <div className="absolute top-84  md:left-96 md:top-70">
             <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Shiba Murmu</h2>
             <p className="hidden md:block">A passonate software developer.</p>
             <p className="hidden md:block">
@@ -32,9 +32,7 @@ function Profile() {
             <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
             </p>
-            <div>
-              {/* <ButtonForUse colorBackground="success">Connect</ButtonForUse> */}
-            </div>
+            
           </div>
         </div>
       </div>
