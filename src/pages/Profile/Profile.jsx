@@ -9,23 +9,23 @@ function Profile() {
         <div className="h-48 w-full bgColor grid place-content-evenly">
           <div className="hidden md:hidden lg:block">
             <span className="text-2xl md:text-6xl text-white font-bold"  style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}>
-              PUJA KUJUR
+              SANGITA KUMARI
             </span>
           </div>
           <div className="h-44 w-44 md:h-60 md:w-60 absolute left-28 md:left-32 md:top-50 top-35 rounded-4xl">
-            <img src="/images/IMG_20250207_17023op5.jpg"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
+            <img src="/images/sangita.jpg"  style={{ borderRadius: "25%", backgroundPosition : "cover", objectFit: 'cover' }} alt="User image" />
           </div>
         </div>
         <div className="h-76 md:h-70 bg-amber-300">
           <div className="absolute top-84   md:left-96 md:top-70 md:p-2">
-            <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Puja Kujur</h2>
+            <h2 className="text-4xl hidden md:block" style={{ fontFamily: "Open Sans, sans-serif"}}>Sangita Kumari</h2>
             <p className="hidden md:block">A passonate software developer.</p>
             <p className="hidden md:block">
               I am a full-stack web developer with a passion for UI/UX design and writing.
             </p>
 
             {/* Below text will be hide id the screen size will be large */}
-            <h2 className="text-4xl md:hidden text-center " style={{ fontFamily: "Open Sans, sans-serif"}}>Puja Kujur</h2>
+            <h2 className="text-4xl md:hidden text-center " style={{ fontFamily: "Open Sans, sans-serif"}}>Sangita Kumari</h2>
             <p className="text-center md:hidden">A passonate software developer.</p>
             <p className="text-center px-6 md:hidden">
               I am a full-stack web developer with a passion for UI/UX design and writing.
