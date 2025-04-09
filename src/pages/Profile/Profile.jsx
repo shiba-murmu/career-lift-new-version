@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 import './profile.css'; // Your custom styles if needed
-
+import IconButtonWithBadge from "../../components/UI/button/IconButtonWithBadge";
 function Profile() {
   return (
     <div className="min-h-screen w-full bg-amber-300">
@@ -34,10 +34,11 @@ function Profile() {
             I am a full-stack web developer with a passion for UI/UX design and writing.
           </p>
 
-          <div className="mt-6  flex justify-center ">
+          <div className="mt-6  flex justify-center gap-1 ">
             <Button variant="contained" color="secondary">
               Contact
             </Button>
+            <IconButtonWithBadge text="ACTIVITES" badgeNumber="2" />
           </div>
         </div>
       </div>
