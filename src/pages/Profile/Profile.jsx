@@ -19,7 +19,7 @@ function Profile() {
       </div>
 
       {/* Info Section */}
-      <div className="bg-amber-300 px-6 md:px-32 py-10">
+      <div className="bg-amber-300 px-6 md:px-32 py-5">
         <div className="text-center md:text-left">
           <h2
             className="text-3xl text-center md:text-4xl font-semibold"
