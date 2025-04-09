@@ -61,6 +61,18 @@ function ExploreCareer() {
         <div className="flex justify-end p-3">
           <ModelUI />
         </div>
+        <div className="flex justify-center p-3">
+          <ModelUI />
+        </div>
+        <div className="flex justify-start p-3">
+          <ModelUI />
+        </div>
+        <div className="flex justify-center p-3">
+          <ModelUI />
+        </div>
+        <div className="flex justify-end p-3">
+          <ModelUI />
+        </div>
       </div>
     </>
   );

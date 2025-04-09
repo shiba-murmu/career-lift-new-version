@@ -5,9 +5,6 @@ const MainCard = () => {
   return (
     <>
       <div className="md:w-[50%] md:h-[50%] bg-gray-200 shadow-2xl rounded-xl p-3">
-        {/* <div className="card-image">
-          <img src="https://picsum.photos/200/300" alt="card image" />
-        </div> */}
         <div className="card-content">
           <h2
             className="card-title text-xl p-5 pb-0 md:text-2xl text-center"
@@ -37,7 +34,8 @@ const MainCard = () => {
               variant="contained"
               size="large"
               color="secondary"
-              style={{ fontFamily: "Raleway, sans-serif", fontWeight: "bold", marginBottom : "5px" }}
+              className="md:w-50"
+              style={{ fontFamily: "Raleway, sans-serif", fontWeight: "bold", marginBottom : "2rem" }}
             >
               Explore
             </Button>
