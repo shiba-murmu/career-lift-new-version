@@ -3,8 +3,6 @@ import TextShow from "../../components/animation/TextShow";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
-import MyButton from "../../components/UI/button/MyButton";
-// import MyButton from "../../components/UI/button/MyButton";
 function SectionTwo() {
   /**
    *  The SectionThree() component is a functional component that returns a JSX element.

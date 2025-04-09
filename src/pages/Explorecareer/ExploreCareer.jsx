@@ -55,22 +55,29 @@ function ExploreCareer() {
         </div>
       </div>
       <div>
+        {/* Main div for the Career paths */}
         <div className="flex justify-start p-3">
+          {/* Graduation div */}
           <ModelUI />
         </div>
         <div className="flex justify-end p-3">
+          {/* Intermediate div */}
           <ModelUI />
         </div>
         <div className="flex justify-center p-3">
+          {/* Matriculation div */}
           <ModelUI />
         </div>
         <div className="flex justify-start p-3">
+          {/* Other jobs div */}
           <ModelUI />
         </div>
         <div className="flex justify-center p-3">
+          {/* Other  */}
           <ModelUI />
         </div>
         <div className="flex justify-end p-3">
+          {/* Others */}
           <ModelUI />
         </div>
       </div>
