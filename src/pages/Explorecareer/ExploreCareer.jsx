@@ -3,6 +3,11 @@ import MainCard from "../../components/Card/MainCard";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import "./ExploreCareer.css";
+/**
+ *
+ * @returns Want use animation show here
+ */
+import TextShow from "../../components/animation/TextShow";
 function ModelUI() {
   return (
     <>
@@ -58,27 +63,44 @@ function ExploreCareer() {
         {/* Main div for the Career paths */}
         <div className="flex justify-start p-3">
           {/* Graduation div */}
-          <ModelUI />
+          <TextShow className='text-center flex'>
+            <ModelUI />
+          </TextShow>
         </div>
         <div className="flex justify-end p-3">
           {/* Intermediate div */}
-          <ModelUI />
+          <TextShow>
+            <ModelUI />
+          </TextShow>
+          {/* <ModelUI /> */}
         </div>
         <div className="flex justify-center p-3">
+          <TextShow>
+            <ModelUI />
+          </TextShow>
           {/* Matriculation div */}
-          <ModelUI />
+          {/* <ModelUI /> */}
         </div>
         <div className="flex justify-start p-3">
+          <TextShow>
+            <ModelUI />
+          </TextShow>
           {/* Other jobs div */}
-          <ModelUI />
+          {/* <ModelUI /> */}
         </div>
         <div className="flex justify-center p-3">
+          <TextShow>
+            <ModelUI />
+          </TextShow>
           {/* Other  */}
-          <ModelUI />
+          {/* <ModelUI /> */}
         </div>
         <div className="flex justify-end p-3">
           {/* Others */}
-          <ModelUI />
+          {/* <ModelUI /> */}
+          <TextShow>
+            <ModelUI />
+          </TextShow>
         </div>
       </div>
     </>
