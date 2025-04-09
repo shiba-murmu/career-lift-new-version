@@ -15,7 +15,7 @@ function ExploreCareer() {
   return (
     <>
       <div>
-        <div className="video-container">
+        <div className="video-container-for-explore">
           <video autoPlay loop muted className="background-video">
             <source src="/videos/explore.mp4" type="video/mp4" />
           </video>
