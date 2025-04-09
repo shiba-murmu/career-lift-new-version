@@ -4,7 +4,7 @@ import './profile.css'; // Your custom styles if needed
 import IconButtonWithBadge from "../../components/UI/button/IconButtonWithBadge";
 function Profile() {
   return (
-    <div className="min-h-screen w-full bg-amber-300">
+    <div className="min-h-screen w-full bg-gray-300">
       {/* Top Header Section */}
       <div className="w-full h-30 md:h-40 bgColor py-10 text-center">
       </div>
@@ -12,20 +12,20 @@ function Profile() {
       {/* Profile Image Overlapping */}
       <div className="flex justify-center -mt-20 md:-mt-28">
         <img
-          src="/images/sangita.png"
+          src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
           alt="User"
           className="h-44 w-44 md:h-60 md:w-60 rounded-[25%] object-cover shadow-lg"
         />
       </div>
 
       {/* Info Section */}
-      <div className="bg-amber-300 px-6 md:px-32 py-5">
+      <div className=" px-6 md:px-32 py-5">
         <div className="text-center md:text-left">
           <h2
-            className="text-3xl text-center md:text-4xl font-semibold"
+            className="text-3xl text-center md:text-4xl md:font-bold"
             style={{ fontFamily: "Open Sans, sans-serif" }}
           >
-            Sangita Kumari
+            Dev Varun
           </h2>
           <p className="mt-2 text-center text-lg text-gray-800">
             A passionate software developer.
