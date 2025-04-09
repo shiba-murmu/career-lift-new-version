@@ -11,6 +11,12 @@ const CartBadge = styled(Badge)(({ theme }) => ({
   },
 }));
 
+/**
+ * This button component use when we need the button 
+ * with number notification in the button top also..
+ */
+
+
 const SquareButton = styled(Button)(({ theme }) => ({
   width: 130,
   height: 40,
