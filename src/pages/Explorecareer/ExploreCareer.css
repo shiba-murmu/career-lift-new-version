@@ -9,8 +9,8 @@
     overflow: hidden;
   }
 
-  @media (max-width: 768px) {
-    .video-container {
+  @media (max-width: 789px) {
+    .video-container-explore {
       height: 40vh;
     }
   }
