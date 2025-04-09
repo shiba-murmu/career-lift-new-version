@@ -32,7 +32,7 @@ const MainCard = () => {
               variant="contained"
               size="large"
               color="secondary"
-              className="md:w-50"
+              className="w-40 md:w-50"
               style={{ fontFamily: "Raleway, sans-serif", fontWeight: "bold", marginBottom : "2rem" }}
             >
               Explore
