@@ -23,9 +23,7 @@ const MainCard = () => {
             career after graduation. Whether you are looking to pursue a career
             in a traditional industry or explore emerging fields, Career lift
             provides access to valuable insights and tools to help you navigate
-            the ever-changing job market. From resume building to networking,
-            our platform offers a comprehensive suite of resources to support
-            your professional development. By leveraging our expertise and
+            the ever-changing job market. By leveraging our expertise and
             guidance, you can confidently embark on a career path that aligns
             with your goals and values.
           </p>
