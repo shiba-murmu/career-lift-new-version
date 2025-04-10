@@ -7,6 +7,9 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 import BackgroundParticleTwo from "./BackgroundParticleTwo";
 function BackgroundParticles() {
+    /**
+     * This is the main function for to apply the tsparticles background.
+     */
   const [ init, setInit ] = useState(false);
 
     // this should be run only once per application lifetime
