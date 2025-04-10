@@ -7,9 +7,12 @@ function Background() {
      */
     return(
         <>
-            <div className='w-full'>
+            <div className='w-full relative'>
                <img src="./images/career.jpeg" alt="background"
-               className='w-full h-50 md:h-96 object-center object-fit object-cover' />
+               className='w-full h-50 md:h-50 object-center object-fit object-cover' />
+               <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <h1 className='text-3xl md:text-6xl text-white' style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>INTERMEDIATE</h1>
+               </div>
             </div>
         </>
     )
