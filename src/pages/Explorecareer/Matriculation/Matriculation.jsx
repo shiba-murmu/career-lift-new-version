@@ -1,12 +1,25 @@
-import React from 'react'
+import React from "react";
+
+import BgFirstImage from "../../../components/BackgroundImage/BgFirstImage";
+
+function UimatriculationModel() {
+  return (
+    <>
+      <div>Matriculation models here.</div>
+    </>
+  );
+}
 
 function Matriculation() {
   /**
    * Main function of the file..
    */
   return (
-    <div>Matriculation</div>
-  )
+    <>
+      <BgFirstImage whichPage="matriculation"/>
+      <UimatriculationModel />
+    </>
+  );
 }
 
-export default Matriculation
+export default Matriculation;

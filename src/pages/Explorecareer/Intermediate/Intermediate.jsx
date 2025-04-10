@@ -1,11 +1,28 @@
 import React from 'react'
 
+import BgFirstImage from '../../../components/BackgroundImage/BgFirstImage'
+
+function UiModelBackground() {
+  return(
+    <>
+      <div>
+        intermediate model here
+      </div>
+    </>
+
+  )
+}
+
+
 function Intermediate() {
   /**
    * Main function of the file..
    */
   return (
-    <div>Intermediate</div>
+    <>
+      <BgFirstImage  whichPage={'intermediate'}/>
+      <UiModelBackground />
+    </>
   )
 }
 

@@ -12,8 +12,7 @@ function Profile() {
       {/* Profile Image Overlapping */}
       <div className="flex justify-center -mt-20 md:-mt-28">
         <img
-          src="./images/sunil.png"
-          // src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
+          src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
           alt="User"
           className="h-44 w-44 md:h-60 md:w-60 rounded-[25%] object-cover shadow-lg"
         />
@@ -26,7 +25,7 @@ function Profile() {
             className="text-3xl text-center md:text-4xl md:font-bold"
             style={{ fontFamily: "Open Sans, sans-serif" }}
           >
-            Sunil Hansda
+            Dev Varun
           </h2>
           <p className="mt-2 text-center text-lg text-gray-800">
             A passionate software developer.

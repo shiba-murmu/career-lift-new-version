@@ -4,8 +4,10 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useLocation,
+  // useLocation, this also has to import here commented because it is already imported
 } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 // *****************************************************************
 /**
@@ -95,31 +97,52 @@ const Layout = ({ children }) => {
   );
 };
 
+// *******************************************************
+/**
+ *
+ * @returns Scroll on top page
+ */
+function ScrollToTop() {
+  /**
+   * This is the function for to scroll on top after redirecting the page..
+   * automatically...
+   */
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // scrolls to top-left corner
+  }, [pathname]);
+
+  return null;
+}
+//************************************************** */
+
 function App() {
   return (
     <>
       {/* Here all the routes for the page available here... */}
-        <Router>
-          <Layout>
-            <Routes>
-              <Route path="/" element={<Landingpage />} />
-              <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/ai assistant" element={<Ai />} />
-              <Route path="/skill test" element={<SkillTest />} />
-              <Route path="/explore career" element={<ExploreCareer />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/settings" element={<Setting />} />
-              <Route path="/account" element={<Account />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/signup" element={<SignUp />} />
-              <Route path="/matriculation" element={<Matriculation />} />
-              <Route path="/graduation" element={<Graduation />} />
-              <Route path="/intermediate" element={<Intermediate />} />
-            </Routes>
-          </Layout>
-        </Router>
+      <Router>
+        <Layout>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Landingpage />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/ai assistant" element={<Ai />} />
+            <Route path="/skill test" element={<SkillTest />} />
+            <Route path="/explore career" element={<ExploreCareer />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/settings" element={<Setting />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/matriculation" element={<Matriculation />} />
+            <Route path="/graduation" element={<Graduation />} />
+            <Route path="/intermediate" element={<Intermediate />} />
+          </Routes>
+        </Layout>
+      </Router>
     </>
   );
 }
