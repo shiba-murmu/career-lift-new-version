@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 const MainCard = () => {
   return (
     <>
-      <div className="md:w-[50%] md:h-[50%] bg-gray-200 shadow-2xl rounded-xl p-3">
+      <div className="w-md md:w-5xl shadow-xl p-3">
         <div className="card-content">
           <h2
             className="card-title text-xl p-5 pb-0 md:text-2xl text-center"
