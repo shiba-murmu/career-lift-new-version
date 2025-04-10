@@ -32,7 +32,7 @@ body {
     background-clip: border-box;
     /* border-radius: 10px; */
     width: 900px;
-    height: 600px;
+    height: 500px;
   }
   @media (max-width: 768px) {
     .swiper-slide {
