@@ -71,6 +71,9 @@ import Setting from "./pages/Settings/Setting";
 import Account from "./pages/Account/Account";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import SignUp from "./pages/SignUp/SignUp";
+import Matriculation from "./pages/Explorecareer/Matriculation/Matriculation";
+import Graduation from "./pages/Explorecareer/Graduation/Graduation";
+import Intermediate from "./pages/Explorecareer/Intermediate/Intermediate";
 
 // ****************************************************
 
@@ -111,6 +114,9 @@ function App() {
               <Route path="/account" element={<Account />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/signup" element={<SignUp />} />
+              <Route path="/matriculation" element={<Matriculation />} />
+              <Route path="/graduation" element={<Graduation />} />
+              <Route path="/intermediate" element={<Intermediate />} />
             </Routes>
           </Layout>
         </Router>
