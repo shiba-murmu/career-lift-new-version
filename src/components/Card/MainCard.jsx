@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-function MainCard({ heading, description }) {
+function MainCard({ heading, description, redirectPath }) {
   return (
     <>
       <div className="sm:w-3xl  md:w-5xl bg-gray-200 shadow-lg p-3">
@@ -19,7 +19,7 @@ function MainCard({ heading, description }) {
             {description}
           </p>
           <div className="text-center">
-            <Link to="/explore">
+            <Link to={redirectPath}>
               <Button
                 variant="contained"
                 size="large"
