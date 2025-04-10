@@ -9,6 +9,13 @@ import "./ExploreCareer.css";
  */
 import TextShow from "../../components/animation/TextShow";
 function ModelUI({ heading, description , redirectPath}) {
+  /**
+   * In this function props are passed
+   * @param {string} heading
+   * @param {string} description
+   * @param {string} redirectPath
+   * @returns
+   */
   return (
     <>
       <MainCard heading={heading} description={description} redirectPath={redirectPath} />
@@ -55,9 +62,6 @@ function ExploreCareer() {
               </p>
             </div>
             <div>
-              {/* <Link to={"/home"}>
-                <Button>Get Started</Button>
-              </Link> */}
             </div>
           </div>
         </div>
@@ -77,7 +81,7 @@ function ExploreCareer() {
           </TextShow>
         </div>
         <div className="flex justify-center p-3">
-          {/* Intermediate div */}
+          {/* Intermediate div here */}
           <TextShow>
             <ModelUI
               heading={"CAREER AFTER INTERMEDIATE"}
@@ -89,7 +93,7 @@ function ExploreCareer() {
           </TextShow>
         </div>
         <div className="flex justify-center md:justify-end p-3">
-          {/* Intermediate div */}
+          {/* matriculation div here */}
           <TextShow>
             <ModelUI
               heading={"CAREER AFTER MATRICULATION"}
@@ -100,7 +104,6 @@ function ExploreCareer() {
             />
           </TextShow>
         </div>
-        
       </div>
     </>
   );
