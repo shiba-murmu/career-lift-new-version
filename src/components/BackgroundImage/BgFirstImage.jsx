@@ -7,9 +7,9 @@ function Background() {
      */
     return(
         <>
-            <div className='w-full '>
+            <div className='w-full'>
                <img src="./images/career.jpeg" alt="background"
-               className='w-full h-96 object-center object-fit object-cover' />
+               className='w-full h-50 md:h-96 object-center object-fit object-cover' />
             </div>
         </>
     )
