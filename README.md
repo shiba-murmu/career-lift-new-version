@@ -14,3 +14,5 @@ If you are developing a production application, we recommend using TypeScript an
 date : Fri , 4 April ---> Homepage design start..
 
 Dont't use absolute property until its not necessary so much..
+
+points to remeber here is to screen sm to md changes to 767.20px to 768px ( for medium screen i.e my laptop )..

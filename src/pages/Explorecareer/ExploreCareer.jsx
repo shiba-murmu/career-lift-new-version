@@ -1,17 +1,17 @@
 import React from "react";
 import MainCard from "../../components/Card/MainCard";
-import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
+// import { Link } from "react-router-dom";
+// import Button from "@mui/material/Button";
 import "./ExploreCareer.css";
 /**
  *
  * @returns Want use animation show here
  */
 import TextShow from "../../components/animation/TextShow";
-function ModelUI() {
+function ModelUI({ head, des }) {
   return (
     <>
-      <MainCard />
+      <MainCard heading={head} description={des} />
     </>
   );
 }
@@ -61,45 +61,26 @@ function ExploreCareer() {
       </div>
       <div>
         {/* Main div for the Career paths */}
-        <div className="flex justify-start p-3">
+        <div className="flex justify-center   p-3">
           {/* Graduation div */}
-          <TextShow className='text-center flex'>
-            <ModelUI />
+          <TextShow className="text-center flex">
+            <ModelUI
+              head={"CAREER AFTER GRADUATION"}
+              des={
+                "Explore the platform here to implement the skills to develop the career to get your dream jobs."
+              }
+            />
           </TextShow>
         </div>
-        <div className="flex justify-end p-3">
+        <div className="flex justify-center p-3">
           {/* Intermediate div */}
           <TextShow>
-            <ModelUI />
-          </TextShow>
-          {/* <ModelUI /> */}
-        </div>
-        <div className="flex justify-center p-3">
-          <TextShow>
-            <ModelUI />
-          </TextShow>
-          {/* Matriculation div */}
-          {/* <ModelUI /> */}
-        </div>
-        <div className="flex justify-start p-3">
-          <TextShow>
-            <ModelUI />
-          </TextShow>
-          {/* Other jobs div */}
-          {/* <ModelUI /> */}
-        </div>
-        <div className="flex justify-center p-3">
-          <TextShow>
-            <ModelUI />
-          </TextShow>
-          {/* Other  */}
-          {/* <ModelUI /> */}
-        </div>
-        <div className="flex justify-end p-3">
-          {/* Others */}
-          {/* <ModelUI /> */}
-          <TextShow>
-            <ModelUI />
+            <ModelUI
+              head={"CAREER AFTER INTERMEDIATE"}
+              des={
+                "Explore the career opportunity after intermediate or persue higher eduations for to get your dream jobs."
+              }
+            />
           </TextShow>
         </div>
       </div>
