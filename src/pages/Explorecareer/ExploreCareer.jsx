@@ -7,7 +7,7 @@ import BackgroundParticles from "../../components/UI/particle/BackgroundParticle
  * @returns Want use animation show here
  */
 import TextShow from "../../components/animation/TextShow";
-function ModelUI({ heading, description , redirectPath}) {
+function ModelUI({ heading, description, redirectPath }) {
   /**
    * In this function props are passed
    * @param {string} heading
@@ -17,7 +17,11 @@ function ModelUI({ heading, description , redirectPath}) {
    */
   return (
     <>
-      <MainCard heading={heading} description={description} redirectPath={redirectPath} />
+      <MainCard
+        heading={heading}
+        description={description}
+        redirectPath={redirectPath}
+      />
     </>
   );
 }
@@ -28,7 +32,7 @@ function ExploreCareer() {
    */
   return (
     <>
-    <BackgroundParticles />
+      <BackgroundParticles />
       <div>
         <div className="video-container-explore">
           <video autoPlay loop muted className="background-video">
@@ -36,6 +40,7 @@ function ExploreCareer() {
           </video>
           {/* Dark Overlay */}
           <div className="overlay"></div>
+
           {/* Content */}
           <div className="relative z-50 flex flex-col items-center justify-center h-full bg-transparent">
             <div className="mb-4">
@@ -61,17 +66,16 @@ function ExploreCareer() {
                 path.
               </p>
             </div>
-            <div>
-            </div>
+            <div></div>
           </div>
         </div>
       </div>
       <div>
         {/* Main div for the Career paths */}
         {/* ***************************************************************************************************************** */}
-        <div className="flex justify-center md:justify-start p-3">
+        <div className="flex md:pb-30 pt-10 p-3">
           {/* Graduation div */}
-          <TextShow className="text-center flex">
+          <TextShow>
             <ModelUI
               heading={"CAREER AFTER GRADUATION"}
               description={
@@ -82,7 +86,7 @@ function ExploreCareer() {
           </TextShow>
         </div>
         {/* ********************************************************************************************************************* */}
-        <div className="flex justify-center p-3">
+        <div className="flex justify-center md:pb-30 p-3">
           {/* Intermediate div here */}
           <TextShow>
             <ModelUI
@@ -95,7 +99,7 @@ function ExploreCareer() {
           </TextShow>
         </div>
         {/* *********************************************************************************************************************** */}
-        <div className="flex justify-center md:justify-end p-3">
+        <div className="flex justify-center md:pb-30 p-3">
           {/* matriculation div here */}
           <TextShow>
             <ModelUI
