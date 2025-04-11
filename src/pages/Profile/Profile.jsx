@@ -39,7 +39,7 @@ function Profile() {
               Connections
             </Button> */}
             <div>
-              <IconButtonWithBadge text="CONNECTIONS" badgeNumber="5" badgeColor={"success"} btnColor={"secondary"} />
+              <IconButtonWithBadge text="CONNECTIONS" badgeNumber="5" badgeColor={"success"} btnColor={"primary"} />
             </div>
             <div>
               <IconButtonWithBadge text="ACTIVITES" badgeNumber="2" badgeColor={"primary"} btnColor={"secondary"} />
