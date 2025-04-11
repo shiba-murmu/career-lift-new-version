@@ -18,8 +18,8 @@ function Landingpage() {
             <h1 style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>
               <RotatingLettersWithGSAP word="CAREER LIFT" />
             </h1>
-            <p className="text-md md:text-4xl text-center  text-amber-300" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: "SemiBold" }}>
-              Find your dream job with Career Lift
+            <p className="text-md md:text-3xl text-center pt-1  text-amber-300" style={{ fontFamily: "'Raleway', sans-serif", fontWeight: "SemiBold" }}>
+              Explore opportunities and get guidance.
             </p>
           </div>
           <div>
