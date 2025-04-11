@@ -119,7 +119,7 @@ function MainCard({ heading, description, redirectPath }) {
 
   return (
     <>
-      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-gray-200 shadow-lg p-4 mx-auto rounded-sm">
+      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-200 shadow-lg p-4 mx-auto rounded-sm">
         <div className="card-content">
           {/* Heading */}
           <h2
@@ -156,13 +156,34 @@ function MainCard({ heading, description, redirectPath }) {
             </button>
           </div>
           {/* Explore Button */}
-          <div className="text-center">
+          {/* ********************************************** */}
+          {/* For small screen */}
+          <div className="text-center md:hidden">
             <Link to={redirectPath}>
               <Button
                 variant="contained"
-                size="medium"
-                color="secondary"
-                className="w-32 md:w-40"
+                size="small"
+                color="info"
+                className="w-70 md:w-90"
+                style={{
+                  fontFamily: "Raleway, sans-serif",
+                  fontWeight: "thin",
+                  marginBottom: "1rem",
+                }}
+              >
+                Explore
+              </Button>
+            </Link>
+          </div>
+          {/* ************************************************** */}
+          {/* For bigger screen */}
+          <div className="text-center hidden md:block">
+            <Link to={redirectPath}>
+              <Button
+                variant="contained"
+                size="large"
+                color="info"
+                className="w-70 md:w-90"
                 style={{
                   fontFamily: "Raleway, sans-serif",
                   fontWeight: "bold",
@@ -173,6 +194,7 @@ function MainCard({ heading, description, redirectPath }) {
               </Button>
             </Link>
           </div>
+          {/* **************************************************** */}
         </div>
       </div>
     </>
