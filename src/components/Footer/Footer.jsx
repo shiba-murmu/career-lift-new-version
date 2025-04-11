@@ -276,13 +276,13 @@ function Footer() {
                 Services
               </h6>
               <p className="mb-4">
-                <a href="#!">Career Explorer</a>
+                <a href="explore career">Career Explorer</a>
               </p>
               <p className="mb-4">
-                <a href="#!">AI based suggestion</a>
+                <a href="ai assistant">AI based suggestion</a>
               </p>
               <p className="mb-4">
-                <a href="#!">Test your skills</a>
+                <a href="skill test">Test your skills</a>
               </p>
               <p>
                 {/* <a href="#!">Laravel</a> */}
@@ -296,13 +296,13 @@ function Footer() {
                 Useful links
               </h6>
               <p className="mb-4">
-                <a href="#!">Home</a>
+                <a href="home">Home</a>
               </p>
               <p className="mb-4">
-                <a href="#!">Profile</a>
+                <a href="profile">Profile</a>
               </p>
               <p className="mb-4">
-                <a href="#!">Settings</a>
+                <a href="settings">Settings</a>
               </p>
               {/* <p>
                 <a href="#!">Help</a>
