@@ -63,35 +63,3 @@ function Profile() {
 
 export default Profile;
 
-{
-  /* <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            p: 3,
-            bgcolor: "background.paper",
-            boxShadow: 1,
-            borderRadius: 1,
-            maxWidth: 300,
-            margin: "auto",
-          }}
-        >
-          <Avatar
-            alt="User Name"
-            src="/static/images/avatar/1.jpg"
-            sx={{ width: 100, height: 100, mb: 2 }}
-          />
-          <Typography
-            variant="h5"
-            style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}
-            component="div"
-          >
-            User Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary" align="center">
-            A short bio about the user goes here. This can be a brief
-            description or tagline that represents the user.
-          </Typography>
-        </Box> */
-}
