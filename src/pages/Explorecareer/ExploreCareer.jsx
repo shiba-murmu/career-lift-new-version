@@ -68,7 +68,8 @@ function ExploreCareer() {
       </div>
       <div>
         {/* Main div for the Career paths */}
-        <div className="flex justify-center md:justify-start  p-3">
+        {/* ***************************************************************************************************************** */}
+        <div className="flex justify-center md:justify-start p-3">
           {/* Graduation div */}
           <TextShow className="text-center flex">
             <ModelUI
@@ -80,6 +81,7 @@ function ExploreCareer() {
             />
           </TextShow>
         </div>
+        {/* ********************************************************************************************************************* */}
         <div className="flex justify-center p-3">
           {/* Intermediate div here */}
           <TextShow>
@@ -92,6 +94,7 @@ function ExploreCareer() {
             />
           </TextShow>
         </div>
+        {/* *********************************************************************************************************************** */}
         <div className="flex justify-center md:justify-end p-3">
           {/* matriculation div here */}
           <TextShow>
@@ -104,6 +107,7 @@ function ExploreCareer() {
             />
           </TextShow>
         </div>
+        {/* *********************************************************************************************************************** */}
       </div>
     </>
   );
