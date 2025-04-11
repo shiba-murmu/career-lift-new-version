@@ -35,6 +35,8 @@
     /* padding: 4rem; */
   }
 
+  /* ********************************************************** */
+  /*     for image background in the home page section .. .  */
 .editingImage {
     background-color: rgb(13, 11, 54);
     box-shadow: 4px 4px 4px 2px white, 0 0 10px white, 0 0 20px white, 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -54,3 +56,4 @@
     }
 }
 
+/* **************************************************************** */
