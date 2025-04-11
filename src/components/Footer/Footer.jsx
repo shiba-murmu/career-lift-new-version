@@ -288,7 +288,7 @@ function Footer() {
               </p>
             </div>
 
-            
+
             {/* <!-- Useful links section --> */}
             <div>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -340,6 +340,7 @@ function Footer() {
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
+                  {/* Phone number here to write */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
