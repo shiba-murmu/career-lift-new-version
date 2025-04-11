@@ -122,7 +122,6 @@ function MainCard({ heading, description, redirectPath }) {
           >
             {heading}
           </h2>
-
           {/* Description */}
           {/* This description is use when the screen is in mobile */}
           <p
@@ -145,7 +144,7 @@ function MainCard({ heading, description, redirectPath }) {
           <div className="text-center mb-2 md:hidden">
             <button
               onClick={toggleReadMore}
-              className="text-green-600 underline text-sm font-thin"
+              className="text-green-600 underline text-sm font-bold"
             >
               {isExpanded ? "Read Less" : "Read More"}
             </button>
