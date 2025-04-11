@@ -5,9 +5,9 @@ const ParticleConfig = {
   background: {
     color: {
       // "value": "#000000"
-      value: "#222222",
+      // value: "#222222",
       // "value": "#1E2D56"
-      // value: "#1971D9",
+      value: "#0F1923",
     },
     image: "",
     position: "",
