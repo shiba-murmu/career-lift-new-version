@@ -1,13 +1,12 @@
 import React from "react";
 import { Button } from "@mui/material";
-import './profile.css'; // Your custom styles if needed
+import "./profile.css"; // Your custom styles if needed
 import IconButtonWithBadge from "../../components/UI/button/IconButtonWithBadge";
 function Profile() {
   return (
     <div className="min-h-screen w-full bg-gray-300">
       {/* Top Header Section */}
-      <div className="w-full h-30 md:h-40 bgColor py-10 text-center">
-      </div>
+      <div className="w-full h-30 md:h-40 bgColor py-10 text-center"></div>
 
       {/* Profile Image Overlapping */}
       <div className="flex justify-center -mt-20 md:-mt-28">
@@ -31,14 +30,20 @@ function Profile() {
             A passionate software developer.
           </p>
           <p className="mt-1 text-center text-base text-gray-700">
-            I am a full-stack web developer with a passion for UI/UX design and writing.
+            I am a full-stack web developer with a passion for UI/UX design and
+            writing.
           </p>
 
-          <div className="mt-6  flex justify-center gap-1 ">
-            <Button variant="contained" color="secondary">
-              Contact
-            </Button>
-            <IconButtonWithBadge text="ACTIVITES" badgeNumber="2" />
+          <div className="mt-6 flex flex-col md:flex-row justify-center gap-1 ">
+            {/* <Button variant="contained" color="secondary">
+              Connections
+            </Button> */}
+            <div>
+              <IconButtonWithBadge text="CONNECTIONS" badgeNumber="5" badgeColor={"success"} btnColor={"secondary"} />
+            </div>
+            <div>
+              <IconButtonWithBadge text="ACTIVITES" badgeNumber="2" badgeColor={"primary"} btnColor={"secondary"} />
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +62,6 @@ function Profile() {
 }
 
 export default Profile;
-
 
 {
   /* <Box

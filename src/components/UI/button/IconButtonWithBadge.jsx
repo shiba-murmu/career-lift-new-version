@@ -18,7 +18,7 @@ const CartBadge = styled(Badge)(({ theme }) => ({
 
 
 const SquareButton = styled(Button)(({ theme }) => ({
-  width: 130,
+  width: 150,
   height: 40,
   minWidth: 0,
   borderRadius: 4, // square-like button with slight rounding
@@ -26,10 +26,10 @@ const SquareButton = styled(Button)(({ theme }) => ({
   fontWeight: 'medium',
 }));
 
-export default function IconButtonWithBadge({text, badgeNumber}) {
+export default function IconButtonWithBadge({text, badgeNumber, badgeColor , btnColor}) {
   return (
-    <CartBadge badgeContent={badgeNumber} color="primary">
-      <SquareButton variant="contained" color="success">
+    <CartBadge badgeContent={badgeNumber} color={badgeColor}>
+      <SquareButton variant="contained" color={btnColor}>
         {text}
       </SquareButton>
     </CartBadge>
