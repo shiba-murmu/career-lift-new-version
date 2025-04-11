@@ -119,10 +119,12 @@ function SectionThree() {
           </div>
 
           <div className="md:w-1/2 grid place-items-center-safe  relative">
-            <img
-              src="./images/otherCareer.png"
-              className="rounded h-80 w-80 md:h-96 md:w-96 object-cover"
-            />
+            <TextShow>
+              <img
+                src="./images/otherCareer.png"
+                className="rounded-2xl relative z-50 editingImage h-80 w-70 md:h-96 md:w-96 object-cover"
+              />
+            </TextShow>
           </div>
         </div>
       </div>

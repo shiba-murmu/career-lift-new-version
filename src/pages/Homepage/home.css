@@ -34,3 +34,23 @@
     -webkit-text-fill-color: transparent;
     /* padding: 4rem; */
   }
+
+.editingImage {
+    background-color: rgb(13, 11, 54);
+    box-shadow: 4px 4px 4px 2px white, 0 0 10px white, 0 0 20px white, 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    animation: shadowPulse 2s ease-in-out infinite;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 4px 4px 4px 2px white, 0 0 10px white, 0 0 20px white, 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 4px 4px 8px 4px white, 0 0 20px white, 0 0 40px white, 0 8px 12px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        box-shadow: 4px 4px 4px 2px white, 0 0 10px white, 0 0 20px white, 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
