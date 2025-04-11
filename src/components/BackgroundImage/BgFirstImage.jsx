@@ -3,6 +3,7 @@ import React from 'react'
 
 function Background({bgImage , stream}) {
     /**
+     * This is used component....
      * Actual background model is here...
      */
     return(
