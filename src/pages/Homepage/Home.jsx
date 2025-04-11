@@ -149,6 +149,9 @@ function SectionFour() {
 }
 
 function Home() {
+  /**
+   * Main function for the page here....
+   */
   return (
     <>
       <Transition />
