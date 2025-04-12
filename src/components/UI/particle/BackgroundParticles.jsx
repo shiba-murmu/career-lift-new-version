@@ -5,7 +5,17 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
-import BackgroundParticleTwo from "./BackgroundParticleTwo";
+
+/**
+ * Below importation is the animation of the backgroundParticleTwo
+ */
+
+// import BackgroundParticleTwo from "./BackgroundParticleTwo";
+/**
+ * Below importation is the animation of the backgroundParticleThree
+ */
+import BackgroundParticleThree from "./BackgroundParticleThree";
+
 function BackgroundParticles() {
     /**
      * This is the main function for to apply the tsparticles background.
@@ -38,7 +48,8 @@ function BackgroundParticles() {
              * so that we can you any types of tsparticles animations as we want.
              */
 
-            <BackgroundParticleTwo /> 
+            // <BackgroundParticleTwo />  
+            <BackgroundParticleThree />
             // <Particles
             //     className="w-full h-full absolute top-0 left-0 z-0"
             //     id="tsparticles"

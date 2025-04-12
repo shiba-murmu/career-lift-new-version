@@ -1,6 +1,6 @@
 import React from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import ParticleConfigThree from "./particleConfig/ParticleConfigThree";
+import ParticleConfigTwo from "./particleConfig/ParticleConfigTwo";
 function BackgroundParticleThree() {
     /**
      * This function is used to render the particle background
@@ -9,8 +9,10 @@ function BackgroundParticleThree() {
      */
     return (
         <>
-            <Particles id="tsparticles" options={ParticleConfigThree}>
+            <Particles id="tsparticles" options={ParticleConfigTwo}>
             </Particles>
         </>
     );
 }
+
+export default BackgroundParticleThree;
