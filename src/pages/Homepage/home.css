@@ -1,6 +1,6 @@
 .highlight {
-    background-color: rgba(20, 183, 166, 0.1);
-    color: rgb(10, 166, 151);
+    background-color: rgba(222, 225, 25, 0.1);
+    color: rgb(232, 6, 6);
     padding-bottom:  0.1em;
     padding-inline-start: 0.2em;
     padding-inline-end: 0.2em;
@@ -11,7 +11,7 @@
 }
 
 .highlight2 {
-    background-color: rgba(20, 183, 166, 0.1);
+    background-color: rgba(209, 223, 18, 0.1);
     color: rgb(29, 249, 0);
     padding-bottom:  0.1em;
     padding-inline-start: 0.2em;

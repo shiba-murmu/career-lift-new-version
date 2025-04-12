@@ -37,7 +37,7 @@ function SectionTwo() {
           </h1>
           <div className="text-center pt-2 px-5 flex flex-col relative">
             <p
-              className="text-sm md:text-xl text-neutral-400"
+              className="text-sm md:text-xl text-white"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -46,7 +46,7 @@ function SectionTwo() {
               Career lift is the platform where you can explore a wide range of
             </p>
             <p
-              className="text-sm md:text-xl text-neutral-400"
+              className="text-sm md:text-xl text-white"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -90,7 +90,7 @@ function SectionThree() {
             </div>
             <TextShow>
               <p
-                className="text-sm md:text-xl text-neutral-400"
+                className="text-sm md:text-xl text-white"
                 style={{
                   fontFamily: "'Raleway', sans-serif",
                   fontWeight: "SemiBold",
@@ -105,7 +105,7 @@ function SectionThree() {
             </TextShow>
             <TextShow>
               <p
-                className="text-sm md:text-xl text-neutral-400"
+                className="text-sm md:text-xl text-white"
                 style={{
                   fontFamily: "'Raleway', sans-serif",
                   fontWeight: "SemiBold",
