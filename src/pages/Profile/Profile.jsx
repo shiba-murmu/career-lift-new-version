@@ -11,10 +11,15 @@ function Profile() {
       {/* Profile Image Overlapping */}
       <div className="flex justify-center -mt-20 md:-mt-28">
         <img
-          src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
+          src="./images/myimage.jpg"
           alt="User"
           className="h-44 w-44 md:h-60 md:w-60 rounded-[25%] object-cover shadow-lg"
         />
+        {/* <img
+          src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
+          alt="User"
+          className="h-44 w-44 md:h-60 md:w-60 rounded-[25%] object-cover shadow-lg"
+        /> */}
       </div>
 
       {/* Info Section */}
