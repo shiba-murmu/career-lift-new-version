@@ -1,24 +1,24 @@
 .highlight {
-    background-color: rgba(222, 225, 25, 0.1);
+    background-color: rgba(255, 255, 232, 0.5);
     color: rgb(232, 6, 6);
     padding-bottom:  0.1em;
     padding-inline-start: 0.2em;
     padding-inline-end: 0.2em;
     border-top-left-radius: 0.1em;
     border-bottom-left-radius: 0.1em;
-    border-right: 2px solid rgb(10, 166, 151);
+    border-right: 2px solid rgb(255, 0, 0);
     display: inline-block;
 }
 
 .highlight2 {
-    background-color: rgba(209, 223, 18, 0.1);
+    background-color: rgba(10, 10, 9, 0.5);
     color: rgb(29, 249, 0);
     padding-bottom:  0.1em;
     padding-inline-start: 0.2em;
     padding-inline-end: 0.2em;
     border-top-left-radius: 0.1em;
     border-bottom-left-radius: 0.1em;
-    border-right: 2px solid rgb(10, 166, 151);
+    border-right: 2px solid rgb(1, 255, 26);
     display: inline-block;
 }
 
