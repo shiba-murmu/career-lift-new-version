@@ -29,6 +29,9 @@ function SectionOne() {
 }
 
 function About() {
+  /**
+   * Main function of this page here to export..
+   */
   return (
     <>
       <SectionOne />
