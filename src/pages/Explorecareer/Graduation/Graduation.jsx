@@ -2,6 +2,10 @@ import React from 'react'
 import BgFirstImage from '../../../components/BackgroundImage/BgFirstImage'
 
 import ButtonOptions from '../ButtonOptions';
+/**
+ * 
+ * @returns Importing randomtextanimation here
+ */
 
 
 function UiModelBackground() {
