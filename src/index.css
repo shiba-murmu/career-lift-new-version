@@ -97,5 +97,19 @@
 }
 
 
+/*********************************************************************************/
+/*                              Scroll bar UI styles                             */
 
+::-webkit-scrollbar {
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    /* height: 40px; */
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    /* height: 40px; */
+    background-color: rgb(26, 25, 25);
+}
 
+/********************************************************************************/
