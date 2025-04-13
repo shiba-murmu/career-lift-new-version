@@ -3,6 +3,26 @@ import TextShow from "../../components/animation/TextShow";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
+
+
+function SectionOne () {
+  return(
+    <>
+      <div className="relative z-50 h-screen bg-[#51265A]">
+        <div>
+          heading parts here
+        </div>
+        <div>
+          content parts here
+        </div>
+        
+      </div>
+    </>
+  )
+}
+
+
+
 function SectionTwo() {
   /**
    *  The SectionThree() component is a functional component that returns a JSX element.
@@ -90,7 +110,7 @@ function SectionThree() {
             </div>
             <TextShow>
               <p
-                className="text-sm md:text-lg text-white"
+                className="text-sm md:text-lg text-white  font-light leading-relaxed"
                 style={{
                   fontFamily: "'Raleway', sans-serif",
                   fontWeight: "normal",
@@ -105,7 +125,7 @@ function SectionThree() {
             </TextShow>
             <TextShow>
               <p
-                className="text-sm md:text-lg text-white"
+                className="text-sm md:text-lg text-white  font-light leading-relaxed"
                 style={{
                   fontFamily: "'Raleway', sans-serif",
                   fontWeight: "SemiBold",
@@ -155,6 +175,7 @@ function Home() {
   return (
     <>
       <Transition />
+      <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
