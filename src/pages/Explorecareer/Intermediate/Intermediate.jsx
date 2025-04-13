@@ -6,7 +6,6 @@ function UiModelBackground() {
   return (
     <>
       <ButtonOptions />
-      <div>intermediate model here</div>
     </>
   );
 }

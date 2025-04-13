@@ -14,9 +14,6 @@ function UiModelBackground() {
     {/* Button options imported here to implement the logic for 
         UI redering according to user's click on the buttons .. */}
       <ButtonOptions />
-      <div>
-        I am the graduations..page
-      </div>
     </>
   )
 }

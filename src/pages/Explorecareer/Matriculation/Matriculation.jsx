@@ -7,7 +7,6 @@ function UimatriculationModel() {
   return (
     <>
       <ButtonOptions />
-      <div>Matriculation models here.</div>
     </>
   );
 }
