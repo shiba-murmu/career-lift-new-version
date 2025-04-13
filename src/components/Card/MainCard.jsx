@@ -119,7 +119,7 @@ function MainCard({ heading, description, redirectPath }) {
 
   return (
     <>
-      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-200 shadow-lg p-4 mx-auto rounded-sm">
+      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-200 shadow-lg p-4 mx-auto rounded-0">
         <div className="card-content">
           {/* Heading */}
           <h2
@@ -150,7 +150,7 @@ function MainCard({ heading, description, redirectPath }) {
           <div className="text-center mb-2 md:hidden">
             <button
               onClick={toggleReadMore}
-              className="text-green-600 underline text-sm font-bold"
+              className="text-green-600 underline text-sm font-bold rounded-0"
             >
               {isExpanded ? "Read Less" : "Read More"}
             </button>
@@ -164,7 +164,7 @@ function MainCard({ heading, description, redirectPath }) {
                 variant="contained"
                 size="small"
                 color="info"
-                className="w-70 md:w-90"
+                className="w-70 md:w-90 rounded-0"
                 style={{
                   fontFamily: "Raleway, sans-serif",
                   fontWeight: "thin",
@@ -183,7 +183,7 @@ function MainCard({ heading, description, redirectPath }) {
                 variant="contained"
                 size="large"
                 color="info"
-                className="w-70 md:w-90"
+                className="w-70 md:w-90 rounded-0"
                 style={{
                   fontFamily: "Raleway, sans-serif",
                   fontWeight: "bold",
