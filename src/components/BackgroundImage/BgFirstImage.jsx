@@ -10,7 +10,7 @@ function Background({bgImage , stream}) {
         <>
             <div className='w-full relative'>
                <img src={bgImage} alt="background"
-               className='w-full h-50 md:h-36 object-center object-fit object-cover' />
+               className='w-full h-30 md:h-36 object-center object-fit object-cover' />
                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                   <h1 className='text-3xl md:text-6xl text-white' style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: "bolder" }}>{stream}</h1>
                </div>
