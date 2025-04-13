@@ -22,6 +22,7 @@ const pages = [
   "AI assistant",
   "About",
   "Contact",
+  "Article & Advice"
 ];
 const settings = ["Profile", "Account", "Dashboard", "Settings", "Logout", "Signup"];
 
