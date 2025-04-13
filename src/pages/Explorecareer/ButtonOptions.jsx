@@ -14,6 +14,13 @@ function ButtonOptions() {
       case "1":
         /**
          * This part only render graduation options
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
          */
         return (
           <>
@@ -40,6 +47,13 @@ function ButtonOptions() {
       case "2":
         /**
          * This parts only render to the intermediate parts 
+         * 
+         * 
+         * 
+         * 
+
+
+
          */
         return (
           <>
@@ -66,6 +80,12 @@ function ButtonOptions() {
       case "3":
         /**
          * This parts only render to the matriculations parts here.
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
          */
         return (
           <>
