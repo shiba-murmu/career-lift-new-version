@@ -21,6 +21,15 @@ import MatriculationExams from "./Matriculation/MatriculationData/MatriculationE
 
 function ButtonOptions() {
   /**
+   * This is the main and parent function for this file
+   * here the file name and function name is based on buttons
+   *
+   * but it will render both button and UI parts also..
+   *
+   * Reasons behind this type functions creation is to render the UI dynamicallly .
+   */
+
+  /**
    * These buttons collection is commons to all the courses
    * And these button will change the interface
    * according to options click
@@ -66,7 +75,7 @@ function ButtonOptions() {
                 </button>
               </div>
             </div>
-          {/* Logic based content will render here.. */}
+            {/* Logic based content will render here.. */}
             <div>
               {getContent === "higherCourse" && <GraduationHigherCourses />}
               {getContent === "jobs" && <GraduationJobs />}
@@ -147,7 +156,7 @@ function ButtonOptions() {
                 </button>
               </div>
             </div>
-           {/* Logic based content will render here.. */}
+            {/* Logic based content will render here.. */}
             <div>
               {getContent == "higherCourse" && <MatriculationHigherCourses />}
               {getContent == "jobs" && <MatriculationJobs />}
