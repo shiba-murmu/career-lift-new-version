@@ -46,7 +46,8 @@ function Header() {
   };
 
   return (
-    <AppBar position="relative" sx={{ zIndex: 1000 }}>
+    <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#0d47a1" }}>
+    {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#1B1B1B" }}> for future use */}
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AutoStoriesIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
