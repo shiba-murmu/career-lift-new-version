@@ -20,9 +20,9 @@ const pages = [
   "Explore Career",
   "Skill test",
   "AI assistant",
+  "Article & Advice",
   "About",
   "Contact",
-  "Article & Advice"
 ];
 const settings = ["Profile", "Account", "Dashboard", "Settings", "Logout", "Signup"];
 
