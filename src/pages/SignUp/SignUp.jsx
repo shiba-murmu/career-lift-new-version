@@ -3,7 +3,7 @@ import React from 'react'
 function SignUp() {
   return (
     <>
-        <form className="max-w-md mx-auto dark:bg-amber-300 bg-amber-900 p-8 mt-10 rounded shadow-md">
+        <form className="max-w-md mx-auto dark:bg-gray-300 bg-amber-900 p-8 rounded shadow-md">
             <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
             <div className="mb-4">
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
