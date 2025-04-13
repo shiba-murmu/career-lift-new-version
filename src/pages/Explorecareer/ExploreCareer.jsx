@@ -49,12 +49,12 @@ function ExploreCareer() {
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: "bolder",
                 }}
-                className="text-2xl md:text-6xl text-center text-white"
+                className="text-2xl md:text-5xl text-center text-white"
               >
                 EXPLORE YOUR CAREER
               </h1>
               <p
-                className="text-sm md:text-xl text-center  text-amber-300"
+                className="text-sm md:text-lg text-center  text-amber-300"
                 style={{
                   fontFamily: "'Raleway', sans-serif",
                   fontWeight: "SemiBold",

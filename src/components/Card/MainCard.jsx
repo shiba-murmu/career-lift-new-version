@@ -140,7 +140,7 @@ function MainCard({ heading, description, redirectPath }) {
           {/* This description is use when the screen is in desktop */}
           <p
             className="card-description p-10 pt-5 md:text-lg hidden md:block"
-            style={{ fontFamily: "Raleway, sans-serif" }}
+            style={{ fontFamily: "Raleway, sans-serif" , fontWeight : "normal" }}
           >
             {description}
           </p>
