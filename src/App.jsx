@@ -137,9 +137,10 @@ function App() {
             <Route path="/account" element={<Account />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/matriculation" element={<Matriculation />} />
-            <Route path="/graduation" element={<Graduation />} />
-            <Route path="/intermediate" element={<Intermediate />} />
+            {/* This id helps to distinguish the files to their destinations. */}
+            <Route path="/matriculation/:id" element={<Matriculation />} />
+            <Route path="/graduation/:id" element={<Graduation />} />
+            <Route path="/intermediate/:id" element={<Intermediate />} />
           </Routes>
         </Layout>
       </Router>

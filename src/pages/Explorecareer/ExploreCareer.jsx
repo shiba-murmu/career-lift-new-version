@@ -81,7 +81,7 @@ function ExploreCareer() {
               description={
                 "After completing your graduation, you have a wide range of career options to choose from. You can pursue higher education like master's or Ph.D. in your desired field. You can also look for job opportunities in various sectors such as IT, finance, healthcare, education, etc. You can also opt for entrepreneurship and start your own business. You can also pursue certifications or diplomas in various fields to enhance your skills and knowledge. You can also look for internships or volunteer opportunities to gain experience and build your network. You can also take online courses or attend workshops to improve your skills and knowledge. You can also start your own blog or YouTube channel to share your expertise and build your personal brand. You can also look for freelance opportunities to work on projects and build your portfolio. You can also take up online certifications or courses to learn new skills and upgrade your knowledge. Whatever you choose, make sure it aligns with your passion and goals. Click the button below to explore more."
               }
-              redirectPath="/graduation"
+              redirectPath="/graduation/1"
             />
           </TextShow>
         </div>
@@ -94,7 +94,7 @@ function ExploreCareer() {
               description={
                 "After completing your intermediate, you have a wide range of career options to choose from. You can pursue higher education like bachelor's or diplomas in your desired field. You can also look for job opportunities in various sectors such as IT, finance, healthcare, education, etc. You can also opt for certifications or diplomas in various fields to enhance your skills and knowledge. You can also look for internships or volunteer opportunities to gain experience and build your network. You can also take online courses or attend workshops to improve your skills and knowledge. You can also start your own blog or YouTube channel to share your expertise and build your personal brand. You can also look for freelance opportunities to work on projects and build your portfolio. You can also take up online certifications or courses to learn new skills and upgrade your knowledge. Whatever you choose, make sure it aligns with your passion and goals. Click the button below to explore more."
               }
-              redirectPath="/intermediate"
+              redirectPath="/intermediate/2"
             />
           </TextShow>
         </div>
@@ -107,7 +107,7 @@ function ExploreCareer() {
               description={
                 "After completing your matriculation, you have a wide range of career options to choose from. You can pursue higher education like intermediate or diplomas in your desired field. You can also look for job opportunities in various sectors such as IT, finance, healthcare, education, etc. You can also opt for certifications or diplomas in various fields to enhance your skills and knowledge. You can also look for internships or volunteer opportunities to gain experience and build your network. You can also take online courses or attend workshops to improve your skills and knowledge. You can also start your own blog or YouTube channel to share your expertise and build your personal brand. You can also look for freelance opportunities to work on projects and build your portfolio. You can also take up online certifications or courses to learn new skills and upgrade your knowledge. Whatever you choose, make sure it aligns with your passion and goals. Please click the button below to explore more."
               }
-              redirectPath="/matriculation"
+              redirectPath="/matriculation/3"
             />
           </TextShow>
         </div>
