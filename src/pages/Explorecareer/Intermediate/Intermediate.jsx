@@ -1,18 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import BgFirstImage from '../../../components/BackgroundImage/BgFirstImage'
-
+import BgFirstImage from "../../../components/BackgroundImage/BgFirstImage";
+import ButtonOptions from "../ButtonOptions";
 function UiModelBackground() {
-  return(
+  return (
     <>
-      <div>
-        intermediate model here
-      </div>
+      <ButtonOptions />
+      <div>intermediate model here</div>
     </>
-
-  )
+  );
 }
-
 
 function Intermediate() {
   /**
@@ -20,10 +17,10 @@ function Intermediate() {
    */
   return (
     <>
-      <BgFirstImage  whichPage={'intermediate'}/>
+      <BgFirstImage whichPage={"intermediate"} />
       <UiModelBackground />
     </>
-  )
+  );
 }
 
-export default Intermediate
+export default Intermediate;
