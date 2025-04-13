@@ -1,10 +1,15 @@
 import React from 'react'
 import BgFirstImage from '../../../components/BackgroundImage/BgFirstImage'
 
+import ButtonOptions from '../ButtonOptions';
+
 
 function UiModelBackground() {
   return(
     <>
+    {/* Button options imported here to implement the logic for 
+        UI redering according to user's click on the buttons .. */}
+      <ButtonOptions />
       <div>
         I am the graduations..page
       </div>
