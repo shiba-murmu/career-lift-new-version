@@ -47,7 +47,8 @@ function Header() {
   };
 
   return (
-    <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#0d47a1" }}>
+    <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#51265A" }}>
+    {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#0d47a1" }}> */}
     {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#1B1B1B" }}> for future use */}
       <Container maxWidth="xl">
         <Toolbar disableGutters>

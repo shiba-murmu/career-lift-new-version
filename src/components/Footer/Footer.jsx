@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       {/* <!-- Footer container --> */}
-      <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#0d47a1] dark:text-white lg:text-left">
+      <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#51265A] dark:text-white  shadow-md shadow-slate-900 lg:text-left">
       {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#1B1B1B] dark:text-white lg:text-left"> */}
       {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#1976D2] dark:text-white lg:text-left"> */}
       {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-blue-900 dark:text-white/75 lg:text-left"> */}
