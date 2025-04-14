@@ -8,17 +8,19 @@ import BackgroundParticles from "../../components/UI/particle/BackgroundParticle
 function SectionOne () {
   return(
     <>
-      <div className="relative z-50 h-screen bg-[#51265A]">
+      <div className="relative z-50 h-screen w-full bg-[#51265A]">
         <div>
-          heading parts here
+          heading parts here...
         </div>
         <div>
-          content parts here
+          content parts here...
         </div>
-        
+        <div>
+          section footer content here...
+        </div>
       </div>
     </>
-  )
+  );
 }
 
 
@@ -175,7 +177,7 @@ function Home() {
   return (
     <>
       <Transition />
-      {/* <SectionOne /> */}
+      <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
