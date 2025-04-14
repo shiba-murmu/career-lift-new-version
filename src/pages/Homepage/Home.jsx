@@ -175,7 +175,7 @@ function Home() {
   return (
     <>
       <Transition />
-      <SectionOne />
+      {/* <SectionOne /> */}
       <SectionTwo />
       <SectionThree />
       <SectionFour />
