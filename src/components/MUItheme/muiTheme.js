@@ -7,7 +7,7 @@ import { createTheme } from "@mui/material/styles";
  */
 
 
-export const getMuiTheme = (mode) =>
+export const GetMuiTheme = (mode) =>
   createTheme({
     palette: {
       mode,

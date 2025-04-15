@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { getMuiTheme } from "./components/MUItheme/muiTheme.js";
-import { useTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
+import { UseTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
 
 /**
  * 
@@ -13,7 +13,7 @@ import { useTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js
  */
 
 const Root = () => {
-  const mode = useTailwindThemeMode();
+  const mode = UseTailwindThemeMode();
   const theme = getMuiTheme(mode);
 
   return (
