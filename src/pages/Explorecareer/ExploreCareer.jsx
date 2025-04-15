@@ -32,7 +32,7 @@ function ExploreCareer() {
    */
   return (
     <>
-      <BackgroundParticles />
+      {/* <BackgroundParticles /> */}
       <div>
         <div className="video-container-explore">
           <video autoPlay loop muted className="background-video">

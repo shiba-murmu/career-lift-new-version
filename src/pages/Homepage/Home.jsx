@@ -37,7 +37,7 @@ function SectionTwo() {
         className="h-64 md:min-h-screen w-full flex justify-center flex-col items-center"
         style={{ position: "relative", overflow: "hidden" }}
       >
-        <BackgroundParticles />
+        {/* <BackgroundParticles /> */}
         <div className="text-center flex  flex-col justify-center items-center h-full relative">
           <h1
             className="text-2xl md:text-5xl text-white"

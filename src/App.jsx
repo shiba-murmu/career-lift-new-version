@@ -39,15 +39,15 @@ import { useLocation } from "react-router-dom";
  *
  */
 
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
+// import { ThemeProvider, createTheme } from "@mui/material/styles";
+// import CssBaseline from "@mui/material/CssBaseline";
 
-const darkTheme = createTheme({
-  palette: {
-    // mode: "dark",
-    mode: "light",
-  },
-});
+// const darkTheme = createTheme({
+//   palette: {
+//     mode: "dark",
+//     // mode: "light",
+//   },
+// });
 // ****************************************************************
 
 /**
