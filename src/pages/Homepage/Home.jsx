@@ -85,7 +85,7 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className=" relative z-50  min-h-screen bg-neutral-700 py-10 w-full md:grid md:">
+      <div className=" relative z-50  min-h-screen bg-pink-900 dark:bg-neutral-900 py-10 w-full md:grid md:">
         {/* <BackgroundParticles /> */}
         <div className="md:flex px-5 md:justify-center md:items-center">
           <div className="text-start relative md:w-1/2 px-10 flex flex-col h-96 justify-center">
