@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { GetMuiTheme } from "./components/MUItheme/GetMuiTheme.js";
-import { UseTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
+import { UseTailwindThemeMode } from "./components/hooks/UseTailwindThemeMode.js";
 
 /**
  * 
