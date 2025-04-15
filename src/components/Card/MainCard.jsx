@@ -119,7 +119,7 @@ function MainCard({ heading, description, redirectPath }) {
 
   return (
     <>
-      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-800 shadow-sm md:shadow p-4 mx-auto rounded-0">
+      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-gray-400 dark:bg-gray-800 shadow-sm md:shadow p-4 mx-auto rounded-0">
         <div className="card-content">
           {/* Heading */}
           <h2
@@ -164,7 +164,7 @@ function MainCard({ heading, description, redirectPath }) {
                 variant="contained"
                 size="small"
                 color="info"
-                className="w-70 md:w-90 rounded-0"
+                className="w-70  md:w-90 rounded-0"
                 style={{
                   fontFamily: "Raleway, sans-serif",
                   fontWeight: "thin",
@@ -183,6 +183,7 @@ function MainCard({ heading, description, redirectPath }) {
                 variant="contained"
                 size="large"
                 color="info"
+                fontSize="large"
                 className="w-70 md:w-90 rounded-0"
                 style={{
                   fontFamily: "Raleway, sans-serif",
