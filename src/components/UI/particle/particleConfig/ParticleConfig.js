@@ -1,13 +1,20 @@
 // import React from 'react'
+// import { useState , useEffect } from "react";
 
 const ParticleConfig = {
+
+
+
+
+  
   autoPlay: true,
   background: {
     color: {
       // "value": "#000000"
       // value: "#222222",
       // "value": "#1E2D56"
-      value: "#0d47a1",
+      // value: "#0d47a1",
+      value : "#21242a",
       // value: "#0F1923",
     },
     image: "",

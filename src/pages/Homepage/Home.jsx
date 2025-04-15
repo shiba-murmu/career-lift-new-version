@@ -3,21 +3,13 @@ import TextShow from "../../components/animation/TextShow";
 import Transition from "../../components/sliderEffect/Transition";
 import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
-
+import CardCarousel from "../../components/sliderEffect/CardCarousel";
 
 function SectionOne () {
   return(
     <>
-      <div className="relative z-50 h-screen w-full bg-[#51265A]">
-        <div>
-          heading parts here...
-        </div>
-        <div>
-          content parts here...
-        </div>
-        <div>
-          section footer content here...
-        </div>
+      <div className="relative bg-amber-400 z-50 h-[50vh] w-full dark:bg-[#2c2b2c]">
+        <CardCarousel />
       </div>
     </>
   );
@@ -34,13 +26,13 @@ function SectionTwo() {
   return (
     <>
       <div
-        className="h-64 md:min-h-screen w-full flex justify-center flex-col items-center"
+        className="h-64 md:min-h-[70vh] w-full flex justify-center flex-col items-center"
         style={{ position: "relative", overflow: "hidden" }}
       >
-        {/* <BackgroundParticles /> */}
+        <BackgroundParticles />
         <div className="text-center flex  flex-col justify-center items-center h-full relative">
           <h1
-            className="text-2xl md:text-5xl"
+            className="text-2xl md:text-5xl text-amber-400"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -49,7 +41,7 @@ function SectionTwo() {
             CAREER LIFT OPPORTUNITY
           </h1>
           <h1
-            className="text-2xl md:text-5xl font-bold mt-2"
+            className="text-2xl md:text-5xl font-bold mt-2 text-amber-400"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -59,7 +51,7 @@ function SectionTwo() {
           </h1>
           <div className="text-center pt-2 px-5 flex flex-col relative">
             <p
-              className="text-sm md:text-lg"
+              className="text-sm md:text-lg text-white dark:text-blue-600"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -68,7 +60,7 @@ function SectionTwo() {
               Career lift is the platform where you can explore a wide range of
             </p>
             <p
-              className="text-sm md:text-lg"
+              className="text-sm md:text-lg text-white dark:text-blue-600 "
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -92,7 +84,7 @@ function SectionThree() {
   return (
     <>
       {/* <SectionThree /> */}
-      <div className=" relative min-h-screen bg-cyan-950 py-10 w-full md:grid md:">
+      <div className=" relative z-50  min-h-screen bg-neutral-700 py-10 w-full md:grid md:">
         {/* <BackgroundParticles /> */}
         <div className="md:flex px-5 md:justify-center md:items-center">
           <div className="text-start relative md:w-1/2 px-10 flex flex-col h-96 justify-center">
@@ -163,7 +155,7 @@ function SectionFour() {
 
   return (
     <>
-      <div className="relative h-64 md:min-h-screen w-full grid place-items-center text-4xl  md:text-9xl  font-bold">
+      <div className="relative h-64 md:min-h-[70vh] z-50 w-full grid place-items-center text-4xl  md:text-7xl  font-bold text-amber-400">
         <TextShow>EXPLORE US</TextShow>
       </div>
     </>

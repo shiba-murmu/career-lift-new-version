@@ -13,7 +13,7 @@ function Footer() {
         {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#1B1B1B] dark:text-white lg:text-left"> */}
         {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-[#1976D2] dark:text-white lg:text-left"> */}
         {/* <footer className="bg-zinc-50 relative text-center text-surface/75 dark:bg-blue-900 dark:text-white/75 lg:text-left"> */}
-        <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+        <div className="flex items-center bg-blue-700 dark:bg-neutral-900 justify-center  p-6 lg:justify-between">
           <div className="me-12 hidden lg:block">
             <span>Get connected with us on social networks:</span>
           </div>
