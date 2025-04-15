@@ -88,10 +88,10 @@ const Layout = ({ children }) => {
     <>
       {!hideheaderFooter && <Header />}
       {/* show header on all pages except landing page */}
-      <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
+      {/* <ThemeProvider theme={darkTheme}> */}
+        {/* <CssBaseline /> */}
         <main>{children}</main>
-      </ThemeProvider>
+      {/* </ThemeProvider> */}
       {!hideheaderFooter && <Footer />}
       {/* show footer on all pages except landing page */}
     </>
