@@ -1,3 +1,5 @@
+import LightModeIcon from '@mui/icons-material/LightMode';
+import ModeNightIcon from '@mui/icons-material/ModeNight';
 import { useEffect, useState } from 'react';
 
 const ThemeToggle = () => {
@@ -25,11 +27,12 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="px-4 py-2 rounded font-medium transition-all bg-gray-200 dark:bg-gray-800 text-black dark:text-white hover:scale-105"
+      className="p-1 grid place-content-center rounded-full bg-white transition-all font-[2px] duration-300  text-black"
     >
-      {theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode'}
+      {theme === 'light' ? <ModeNightIcon sx = {{color : 'black' , fontSize : '16px'}} /> : <LightModeIcon sx = {{color : 'black' , fontSize : '16px'}} />}
     </button>
   );
 };
 
 export default ThemeToggle;
+
