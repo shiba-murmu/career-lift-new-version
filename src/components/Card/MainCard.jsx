@@ -119,11 +119,11 @@ function MainCard({ heading, description, redirectPath }) {
 
   return (
     <>
-      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-200 shadow-lg p-4 mx-auto rounded-0">
+      <div className="sm:w-11/12 md:w-4/5 lg:w-3/4 bg-amber-200 dark:bg-gray-800 shadow-sm md:shadow p-4 mx-auto rounded-0">
         <div className="card-content">
           {/* Heading */}
           <h2
-            className="text-blue-600 text-lg sm:text-xl md:text-3xl text-center px-2 pt-4 pb-2"
+            className="text-blue-600 dark:text-yellow-400 text-lg sm:text-xl md:text-3xl text-center px-2 pt-4 pb-2"
             style={{ fontFamily: "Open Sans, sans-serif", fontWeight: "bold" }}
           >
             {heading}

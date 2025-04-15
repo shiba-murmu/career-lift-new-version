@@ -40,7 +40,7 @@ function SectionTwo() {
         {/* <BackgroundParticles /> */}
         <div className="text-center flex  flex-col justify-center items-center h-full relative">
           <h1
-            className="text-2xl md:text-5xl text-white"
+            className="text-2xl md:text-5xl"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -49,7 +49,7 @@ function SectionTwo() {
             CAREER LIFT OPPORTUNITY
           </h1>
           <h1
-            className="text-2xl md:text-5xl font-bold mt-2 text-white"
+            className="text-2xl md:text-5xl font-bold mt-2"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: "bolder",
@@ -59,7 +59,7 @@ function SectionTwo() {
           </h1>
           <div className="text-center pt-2 px-5 flex flex-col relative">
             <p
-              className="text-sm md:text-lg text-white"
+              className="text-sm md:text-lg"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -68,7 +68,7 @@ function SectionTwo() {
               Career lift is the platform where you can explore a wide range of
             </p>
             <p
-              className="text-sm md:text-lg text-white"
+              className="text-sm md:text-lg"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "SemiBold",
@@ -163,7 +163,7 @@ function SectionFour() {
 
   return (
     <>
-      <div className="relative h-64 md:min-h-screen w-full grid place-items-center text-4xl  md:text-9xl  font-bold text-white">
+      <div className="relative h-64 md:min-h-screen w-full grid place-items-center text-4xl  md:text-9xl  font-bold">
         <TextShow>EXPLORE US</TextShow>
       </div>
     </>

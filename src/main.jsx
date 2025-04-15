@@ -1,10 +1,27 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { ThemeProvider, CssBaseline } from "@mui/material";
+import { getMuiTheme } from "./components/MUItheme/muiTheme.js";
+import { useTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
 
-createRoot(document.getElementById('root')).render(
+
+
+const Root = () => {
+  const mode = useTailwindThemeMode();
+  const theme = getMuiTheme(mode);
+
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  );
+};
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <Root />
+  </StrictMode>
+);

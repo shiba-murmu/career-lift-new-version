@@ -1,8 +1,11 @@
 import React from 'react'
-
+import ThemeToggle from '../../components/ToggleTheme/ThemeToggle'
 function Setting() {
   return (
-    <div>Setting</div>
+    <>
+        <h1>Setting</h1>
+        <ThemeToggle />
+    </>
   )
 }
 

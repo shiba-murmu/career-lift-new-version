@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState , useEffect} from "react";
 import { Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -12,8 +13,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-// import AdbIcon from "@mui/icons-material/Adb";
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 
 const pages = [
   "Home",
@@ -24,7 +24,14 @@ const pages = [
   "About",
   "Contact",
 ];
-const settings = ["Profile", "Account", "Dashboard", "Settings", "Logout", "Signup"];
+const settings = [
+  "Profile",
+  "Account",
+  "Dashboard",
+  "Settings",
+  "Logout",
+  "Signup",
+];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -46,13 +53,41 @@ function Header() {
     setAnchorElUser(null);
   };
 
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    // Function to check if "dark" class is applied to <html>
+    const checkDarkMode = () => {
+      const html = document.documentElement;
+      setIsDark(html.classList.contains("dark"));
+    };
+
+    // Initial check
+    checkDarkMode();
+
+    // Watch for changes in class attribute on <html>
+    const observer = new MutationObserver(checkDarkMode);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+
+    // Cleanup
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#51265A" }}>
-    {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#0d47a1" }}> */}
-    {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#1B1B1B" }}> for future use */}
+    <AppBar
+      position="relative"
+      sx={{ zIndex: 1000 }}
+    >
+      {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#0d47a1" }}> */}
+      {/* <AppBar position="relative" sx={{ zIndex: 1000 , backgroundColor: "#1B1B1B" }}> for future use */}
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AutoStoriesIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <AutoStoriesIcon
+            sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+          />
           {/* <Typography
             variant="h6"
             noWrap
@@ -106,14 +141,16 @@ function Header() {
                   to={`/${page.toLowerCase()}`}
                   style={{ textDecoration: "none" }}
                 >
-                  <MenuItem  onClick={handleCloseNavMenu}>
+                  <MenuItem onClick={handleCloseNavMenu}>
                     <Typography sx={{ textAlign: "center" }}>{page}</Typography>
                   </MenuItem>
                 </Link>
               ))}
             </Menu>
           </Box>
-          <AutoStoriesIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <AutoStoriesIcon
+            sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+          />
           <Typography
             variant="h5"
             noWrap
@@ -130,9 +167,15 @@ function Header() {
               textDecoration: "none",
             }}
           >
-          CAREER LIFT
+            CAREER LIFT
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } , colorScheme: "dark"}}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", md: "flex" },
+              colorScheme: "dark",
+            }}
+          >
             {pages.map((page) => (
               /**
                * Here also Link tag added to navigate to different pages
@@ -174,14 +217,13 @@ function Header() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-             
               {settings.map((setting) => (
                 /**
                  * Add link tags to redirect to different pages
                  * on all screens..
                  */
                 <Link key={setting} to={`/${setting.toLowerCase()}`}>
-                  <MenuItem  onClick={handleCloseUserMenu}>
+                  <MenuItem onClick={handleCloseUserMenu}>
                     <Typography sx={{ textAlign: "center" }}>
                       {setting}
                     </Typography>

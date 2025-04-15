@@ -4,7 +4,7 @@ import "./profile.css"; // Your custom styles if needed
 import IconButtonWithBadge from "../../components/UI/button/IconButtonWithBadge";
 function Profile() {
   return (
-    <div className="min-h-screen w-full bg-gray-300">
+    <div className="min-h-screen w-full">
       {/* Top Header Section */}
       <div className="w-full h-30 md:h-40 bgColor py-10 text-center"></div>
 
@@ -31,10 +31,10 @@ function Profile() {
           >
             Shiva Murmu
           </h2>
-          <p className="mt-2 text-center text-lg text-gray-800">
+          <p className="mt-2 text-center text-lg dark:text-amber-400">
             A passionate software developer.
           </p>
-          <p className="mt-1 text-center text-base text-gray-700">
+          <p className="mt-1 text-center text-base dark:text-blue-400">
             I am a full-stack web developer with a passion for UI/UX design and
             writing.
           </p>
