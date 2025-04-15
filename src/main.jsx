@@ -6,7 +6,11 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import { getMuiTheme } from "./components/MUItheme/muiTheme.js";
 import { useTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
 
-
+/**
+ * 
+ * @returns Here using code for dark themes for whole website
+ * its a global theme
+ */
 
 const Root = () => {
   const mode = useTailwindThemeMode();

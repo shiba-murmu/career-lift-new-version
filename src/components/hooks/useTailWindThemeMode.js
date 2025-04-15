@@ -21,3 +21,7 @@ export const useTailwindThemeMode = () => {
 
   return mode;
 };
+/**
+ * The useTailwindThemeMode() hook is a custom hook that returns the current mode of the tailwind theme.
+ * It uses the useState hook to manage the mode state and the useEffect hook to observe changes in the document's classList.
+ */

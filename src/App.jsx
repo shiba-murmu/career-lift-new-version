@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-// import { createTheme, ThemeProvider } from "@mui/material/styles";
-// import { CssBaseline } from "@mui/material";
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,15 +39,7 @@ import { useLocation } from "react-router-dom";
  *
  */
 
-// import { ThemeProvider, createTheme } from "@mui/material/styles";
-// import CssBaseline from "@mui/material/CssBaseline";
 
-// const darkTheme = createTheme({
-//   palette: {
-//     mode: "dark",
-//     // mode: "light",
-//   },
-// });
 // ****************************************************************
 
 /**
@@ -90,10 +80,7 @@ const Layout = ({ children }) => {
     <>
       {!hideheaderFooter && <Header />}
       {/* show header on all pages except landing page */}
-      {/* <ThemeProvider theme={darkTheme}> */}
-        {/* <CssBaseline /> */}
         <main>{children}</main>
-      {/* </ThemeProvider> */}
       {!hideheaderFooter && <Footer />}
       {/* show footer on all pages except landing page */}
     </>
