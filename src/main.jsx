@@ -14,7 +14,7 @@ import { UseTailWindThemeMode } from "./components/hooks/useTailwindThemeMode.js
  */
 
 const Root = () => {
-  const mode = UseTailwindThemeMode();
+  const mode = UseTailWindThemeMode();
   const theme = GetMuiTheme(mode);
 
   return (
