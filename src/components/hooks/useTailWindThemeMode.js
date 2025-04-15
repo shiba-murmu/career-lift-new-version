@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export const UseTailwindThemeMode = () => {
+export const UseTailWindThemeMode = () => {
   const [mode, setMode] = useState(
     document.documentElement.classList.contains('dark') ? 'dark' : 'light'
   );
