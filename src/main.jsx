@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { ThemeProvider, CssBaseline } from "@mui/material";
-import { getMuiTheme } from "./components/MUItheme/muiTheme.js";
+import { GetMuiTheme } from "./components/MUItheme/GetMuiTheme.js";
 import { UseTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js";
 
 /**
@@ -14,7 +14,7 @@ import { UseTailwindThemeMode } from "./components/hooks/useTailwindThemeMode.js
 
 const Root = () => {
   const mode = UseTailwindThemeMode();
-  const theme = getMuiTheme(mode);
+  const theme = GetMuiTheme(mode);
 
   return (
     <ThemeProvider theme={theme}>
