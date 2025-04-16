@@ -8,9 +8,9 @@ import CardCarousel from "../../components/sliderEffect/CardCarousel";
 function SectionOne () {
   return(
     <>
-      <div className="relative bg-amber-400 z-50 h-[50vh] grid place-content-center  w-full dark:bg-[#2c2b2c]">
-        {/* <CardCarousel /> */}
-        <h1>Some content sections here..</h1>
+      <div className="relative bg-gray-700 z-50 h-[50vh] grid place-content-center  w-full dark:bg-[#2c2b2c]">
+        <img src="./images/career.jpeg" alt="some public images here."
+        className="absolute top-0 left-0 w-full h-full object-cover hover:opacity-50 transform duration-500 hove:size-110" />
       </div>
     </>
   );
