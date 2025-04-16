@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 function Setting() {
   return (
     <>
@@ -33,7 +33,7 @@ function Setting() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Setting
+export default Setting;
