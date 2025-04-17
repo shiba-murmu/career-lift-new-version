@@ -29,7 +29,7 @@ const settings = [
   "Account",
   "Dashboard",
   "Settings",
-  "Logout",
+  "Login",
   "Signup",
 ];
 
