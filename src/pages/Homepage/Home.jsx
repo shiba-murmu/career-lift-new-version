@@ -5,8 +5,8 @@ import "./home.css";
 import BackgroundParticles from "../../components/UI/particle/BackgroundParticles";
 import CardCarousel from "../../components/sliderEffect/CardCarousel";
 
-function SectionOne () {
-  return(
+function SectionOne() {
+  return (
     <>
       <div className="relative mt-2 md:mt-5 bg-gray-700 z-50 h-[50vh] grid place-content-center  w-full dark:bg-neutral-900">
         {/* <img src="./images/career.jpeg" alt="some public images here." */}
@@ -15,8 +15,6 @@ function SectionOne () {
     </>
   );
 }
-
-
 
 function SectionTwo() {
   /**
@@ -112,10 +110,10 @@ function SectionThree() {
                 }}
               >
                 With Career Lift, you can build your career by exploring a wide
-                range of career opportunities, getting guidance from AI assistant,
-                and by taking skill tests to showcase your skills. Our platform
-                is designed to help you grow your career by providing you the
-                right tools and resources.
+                range of career opportunities, getting guidance from AI
+                assistant, and by taking skill tests to showcase your skills.
+                Our platform is designed to help you grow your career by
+                providing you the right tools and resources.
               </p>
             </TextShow>
             <TextShow>
