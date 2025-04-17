@@ -168,7 +168,7 @@ function Home() {
   return (
     <>
       <Transition />
-      <SectionOne />
+      {/* <SectionOne /> commented for some time */}
       <SectionTwo />
       <SectionThree />
       <SectionFour />
