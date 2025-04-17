@@ -69,7 +69,9 @@ import Matriculation from "./pages/Explorecareer/Matriculation/Matriculation";
 import Graduation from "./pages/Explorecareer/Graduation/Graduation";
 import Intermediate from "./pages/Explorecareer/Intermediate/Intermediate";
 import ArticleAndAdvice from "./pages/ArticleAndDevice/ArticleAndAdvice";
-import Login from './pages/Login/Login';
+// import Login from './pages/Login/LoginPage';
+import LoginPage from "./pages/Login/LoginPage";
+
 // ****************************************************
 
 const Layout = ({ children }) => {
@@ -128,7 +130,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/article & advice" element={<ArticleAndAdvice />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<LoginPage />} />
             {/* This id helps to distinguish the files to their destinations. */}
             <Route path="/matriculation/:id" element={<Matriculation />} />
             <Route path="/graduation/:id" element={<Graduation />} />

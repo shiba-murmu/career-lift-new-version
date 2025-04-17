@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 
-function login() {
+
+function LoginPage() {
   return (
     <>
+    
       <section className="h-[60vh] p-3 md:p-0 md:h-screen  flex items-center justify-center">
         <div className="bg-white dark:bg-neutral-800 dark:shadow-none shadow-neutral-500 rounded-lg shadow-lg p-13 w-full md:w-1/4">
           <h1
@@ -63,10 +65,21 @@ function login() {
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default login;
+export default LoginPage
+
+
+
+// function Login() {
+//   return (
+//     <>
+//     </>
+//   );
+// }
+
+// export default Login;/
 
 // import React from "react";
 // function Login() {
