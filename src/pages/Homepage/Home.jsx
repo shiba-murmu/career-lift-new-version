@@ -8,9 +8,9 @@ import CardCarousel from "../../components/sliderEffect/CardCarousel";
 function SectionOne () {
   return(
     <>
-      <div className="relative bg-gray-700 z-50 h-[50vh] grid place-content-center  w-full dark:bg-[#2c2b2c]">
-        <img src="./images/career.jpeg" alt="some public images here."
-        className="absolute top-0 left-0 w-full h-full object-cover hover:opacity-50 transform duration-500 hove:size-110" />
+      <div className="relative mt-2 md:mt-5 bg-gray-700 z-50 h-[50vh] grid place-content-center  w-full dark:bg-neutral-900">
+        {/* <img src="./images/career.jpeg" alt="some public images here." */}
+        {/* className="absolute top-0 left-0 w-full h-full object-cover hover:opacity-50 transform duration-500 hove:size-110" /> */}
       </div>
     </>
   );
@@ -112,7 +112,7 @@ function SectionThree() {
                 }}
               >
                 With Career Lift, you can build your career by exploring a wide
-                range of job opportunities, getting guidance from AI assistant,
+                range of career opportunities, getting guidance from AI assistant,
                 and by taking skill tests to showcase your skills. Our platform
                 is designed to help you grow your career by providing you the
                 right tools and resources.
