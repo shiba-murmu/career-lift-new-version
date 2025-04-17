@@ -69,8 +69,7 @@ import Matriculation from "./pages/Explorecareer/Matriculation/Matriculation";
 import Graduation from "./pages/Explorecareer/Graduation/Graduation";
 import Intermediate from "./pages/Explorecareer/Intermediate/Intermediate";
 import ArticleAndAdvice from "./pages/ArticleAndDevice/ArticleAndAdvice";
-import Login from "./pages/login/login";
-import Login from "./pages/login/login";
+import Login from './pages/Login/Login';
 // ****************************************************
 
 const Layout = ({ children }) => {
