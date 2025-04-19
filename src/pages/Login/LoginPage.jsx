@@ -28,7 +28,7 @@ function LoginPage() {
                 type="email"
                 id="email"
                 placeholder="Enter your email"
-                className="p-2 placeholder:text-gray-400 placeholder:placeholder-opacity-50 rounded-sm md:rounded-md border-1 md:border-2 border-gray-300 w-full required:"
+                className="p-2 placeholder:text-gray-400 placeholder:placeholder-opacity-50 rounded-sm md:rounded-md border-1 md:border-2 border-gray-300 w-full required"
               />
             </div>
             <div>
@@ -43,7 +43,7 @@ function LoginPage() {
                 type="password"
                 id="password"
                 placeholder="Enter your password"
-                className="p-2 placeholder:text-gray-400 placeholder:placeholder-opacity-70  rounded-sm md:rounded-md border-1 md:border-2 border-gray-300 w-full required:"
+                className="p-2 placeholder:text-gray-400 placeholder:placeholder-opacity-70  rounded-sm md:rounded-md border-1 md:border-2 border-gray-300 w-full required"
               />
             </div>
 
