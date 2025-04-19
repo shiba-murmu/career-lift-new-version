@@ -11,8 +11,9 @@ function GraduationHigherCourses() {
 
   return (
     <div>
-      <h2>Available Courses After Graduation</h2>
-      <ul>
+      {/* Available Courses After Graduation</h2> */}
+      <span style={{backgroundColor: 'Green'}}>Available courses after graduation</span>
+      <ul className="bg-red-600">
         {courses.map((course, index) => (
           <li key={index}>
             <strong>{course.name}</strong> - {course.duration}

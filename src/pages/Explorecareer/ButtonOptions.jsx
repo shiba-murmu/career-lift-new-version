@@ -49,29 +49,29 @@ function ButtonOptions() {
          */
         return (
           <>
-            <div className="block md:flex flex-wrap p-2 justify-center  text-white text-center bg-gradient-to-b from-gray-900 to-gray-600">
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+            <div className="block md:flex flex-wrap p-2 md:px-40 justify-center md:gap-5 text-white text-center">
+              <div className="flex-1/4 mb-1 md:mb-0 md:border-b-0">
                 <button
                   onClick={() => setContent("higherCourse")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:rounded-lg md:hover:scale-105 hover:scale-105 transition duration-600 text-white font-light text-md md:text-sm  rounded-sm py-2"
                 >
-                  EXPLORE HIGHER COURSES
+                  <span>EXPLORE HIGHER COURSES</span>
                 </button>
               </div>
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+              <div className="flex-1/4 mb-1 md:mb-0  md:border-b-0">
                 <button
                   onClick={() => setContent("jobs")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-600 text-white  font-light text-md md:text-sm rounded-sm py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE JOBS
+                  <span>EXPLORE JOBS</span>
                 </button>
               </div>
-              <div className="flex-1/3">
+              <div className="flex-1/4  md:border-b-0">
                 <button
                   onClick={() => setContent("exams")}
-                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white rounded-sm font-light text-md md:text-sm  py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE COMPETITIVE EXAMS
+                  <span>EXPLORE COMPETITIVE EXAMS</span>
                 </button>
               </div>
             </div>
@@ -89,29 +89,29 @@ function ButtonOptions() {
          */
         return (
           <>
-            <div className="block md:flex flex-wrap p-2 justify-center  text-white text-center bg-gradient-to-b from-gray-900 to-gray-600">
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+            <div className="block md:flex flex-wrap p-2 md:px-40 justify-center md:gap-5  text-white text-center">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("higherCourse")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:rounded-lg md:hover:scale-105 hover:scale-105 transition duration-600 text-white font-light text-md md:text-sm  rounded-sm py-2"
                 >
-                  EXPLORE HIGHER COURSES
+                  <span>EXPLORE HIGHER COURSES</span>
                 </button>
               </div>
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("jobs")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-600 text-white  font-light text-md md:text-sm rounded-sm py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE JOBS
+                  <span>EXPLORE JOBS</span>
                 </button>
               </div>
-              <div className="flex-1/3">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("exams")}
-                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white rounded-sm font-light text-md md:text-sm  py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE COMPETITIVE EXAMS
+                  <span>EXPLORE COMPETITIVE EXAMS</span>
                 </button>
               </div>
             </div>
@@ -129,30 +129,30 @@ function ButtonOptions() {
          */
         return (
           <>
-            <div>Matriculatins</div>
-            <div className="block md:flex flex-wrap p-2 justify-center  text-white text-center bg-gradient-to-b from-gray-900 to-gray-600">
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+            {/* <div>Matriculatins</div> */}
+            <div className="block md:flex flex-wrap p-2 md:px-40 justify-center md:gap-5  text-white text-center">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("higherCourse")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:rounded-lg md:hover:scale-105 hover:scale-105 transition duration-600 text-white font-light text-md md:text-sm  rounded-sm py-2"
                 >
-                  EXPLORE HIGHER COURSES
+                  <span>EXPLORE HIGHER COURSES</span>
                 </button>
               </div>
-              <div className="flex-1/3 border-b-2 md:border-b-0">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("jobs")}
-                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-600 text-white  font-light text-md md:text-sm rounded-sm py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE JOBS
+                  <span>EXPLORE JOBS</span>
                 </button>
               </div>
-              <div className="flex-1/3">
+              <div className="flex-1/4 border-b-2 md:border-b-0">
                 <button
                   onClick={() => setContent("exams")}
-                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white md:font-medium font-light text-md md:text-lg  rounded-0 py-2"
+                  className="bg-gray-500 btnOptionClick  w-full hover:bg-gray-700 md:hover:scale-105 hover:scale-105 transition duration-300 text-white rounded-sm font-light text-md md:text-sm  py-2 md:hover:rounded-lg"
                 >
-                  EXPLORE COMPETITIVE EXAMS
+                  <span>EXPLORE COMPETITIVE EXAMS</span>
                 </button>
               </div>
             </div>
